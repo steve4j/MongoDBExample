@@ -5,7 +5,15 @@ namespace MongoDBLib
 {
     public static class SQLHelper
     {
-        const string connectionString = "Integrated Security=SSPI;Pooling=true;Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HackathonDb";
+        private static string connectionString = "Integrated Security=SSPI;Pooling=true;Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=HackathonDb";
+
+        static SQLHelper()
+        {
+            if(Environment.MachineName == "IFINB33")
+            {
+                connectionString = "Integrated Security=SSPI;Pooling=true;Data Source=IFINB33;Initial Catalog=HackathonDb";
+            }
+        }
 
         public static int InsertData(SqlParameter[] parameters)
         {
@@ -56,8 +64,9 @@ namespace MongoDBLib
             }
         }
 
-        public static void SelectDataWithLikeFilter(string filter)
+        public static List<FulltextResult> SelectDataWithLikeFilter(string filter)
         {
+            var ret = new List<FulltextResult>();
             string query = "SELECT * FROM [dbo].[File]";
 
             if (!filter.IsNullOrEmpty())
@@ -77,6 +86,10 @@ namespace MongoDBLib
                         while (reader.Read())
                         {
                             Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]} Text: {reader["Text"]}");
+                            FulltextResult res = new FulltextResult();
+                            res.FileName = Convert.ToString(reader["Name"]);
+                            res.FullText = Convert.ToString(reader["Text"]);
+                            ret.Add(res);
                         }
                     }
                 }
@@ -85,6 +98,8 @@ namespace MongoDBLib
                     Console.WriteLine("Error: " + ex.Message);
                 }
             }
+
+            return ret;
         }
     }
 }

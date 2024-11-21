@@ -1,4 +1,4 @@
-﻿namespace MongoDBWebApp
+﻿namespace MongoDBLib
 {
     #region FulltextResult class
 

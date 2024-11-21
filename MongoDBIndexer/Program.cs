@@ -2,7 +2,6 @@
 using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using MongoDBIndexer;
 using MongoDBLib;
 using System;
 using System.Diagnostics;

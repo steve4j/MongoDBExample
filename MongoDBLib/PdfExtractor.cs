@@ -9,7 +9,7 @@ using UglyToad.PdfPig.Rendering.Skia;
 using UglyToad.PdfPig.Graphics.Colors;
 using SkiaSharp;
 
-namespace MongoDBIndexer
+namespace MongoDBLib
 {
     #region PdfExtractor class
 
