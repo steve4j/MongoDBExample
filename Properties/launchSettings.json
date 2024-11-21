@@ -2,7 +2,7 @@
   "profiles": {
     "MongoDBIndexer": {
       "commandName": "Project",
-      "workingDirectory": "C:\\Entwicklung\\MongoDBExample\\csvFiles"
+      "workingDirectory": "C:\\Entwicklung\\MongoDBExample\\input"
     }
   }
 }

@@ -2,6 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDBIndexer;
+using System;
 
 if (MongoDBHelper.IsInstalled())
 {
@@ -15,12 +16,52 @@ MongoClient dbClient = new MongoClient(atlasString);
 var dbNames = MongoDBHelper.GetDbNames(dbClient);
 var database = dbClient.GetDatabase("dbmigration");
 var collection = database.GetCollection<BsonDocument>("tables");
+var specifications = database.GetCollection<BsonDocument>("specifications");
+
+void indexDocs()
+{
+    string cd = Environment.CurrentDirectory;
+    string path = Path.Combine(cd, "datenblätter");
+
+    foreach(string file in Directory.GetFiles(path, "*.pdf"))
+    {
+        var pdfEx = new PdfExtractor(file);
+        var txt = pdfEx.ExtractText();
+        var fn = Path.GetFileName(file);
+        var filter = Builders<BsonDocument>.Filter.Eq("fileName", fn);
+        string objectId = (Guid.NewGuid().ToString()).Replace("(", "").Replace(")", "").Replace("-", "");
+
+        var document = new BsonDocument
+        {
+            { "_id", new ObjectId(objectId) },
+            { "fileName", fn },
+            { "fullText", txt }
+        };
+
+        var doc = specifications.Find(filter).FirstOrDefault();
+
+        if (doc != null)
+        {
+            //collection.UpdateOne(filter, document);
+            specifications.DeleteOne(filter);
+            specifications.InsertOne(document);
+            //collection.UpdateOne(filter, document);
+        }
+        else
+        {
+            specifications.InsertOne(document);
+
+        }
+
+        Console.WriteLine(txt);
+    }
+}
 
 void collectDocs()
 {
     Console.WriteLine("Indexing CSV files ...");
 
-    string currentPath = Environment.CurrentDirectory;
+    string currentPath = Path.Combine(Environment.CurrentDirectory, "csvFiles");
     string[] files = Directory.GetFiles(currentPath, "*.csv");
 
     foreach(string csvFile in files)
@@ -133,6 +174,8 @@ void filterDocs()
         Console.WriteLine("FD: " + firstDoc["fullText"]);
     }
 }
+
+indexDocs();
 
 collectDocs();
 
