@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace MongoDBIndexer
@@ -38,6 +39,14 @@ namespace MongoDBIndexer
                 serverName = "localhost";
 
             return "mongodb://" + serverName + ":27017";
+        }
+
+        public static FilterDefinition<BsonDocument> PrepareRegexFilter(string regex)
+        {
+            var regexFilter = Builders<BsonDocument>.Filter.Regex("fullText", 
+                new BsonRegularExpression("/" + Regex.Escape(regex) + "/is"));
+
+            return regexFilter;
         }
 
         public static bool IsInstalled()

@@ -3,6 +3,7 @@ using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDBIndexer;
 using System;
+using System.Diagnostics;
 
 string wd = Environment.CurrentDirectory;
 Console.WriteLine("Working-Directory: " + wd);
@@ -67,6 +68,13 @@ void indexDocs()
         Console.WriteLine(txt);
     }
 
+    Console.Write("Enter search text for fulltext search: ");
+    string searchText= Console.ReadLine();
+
+    if(!string.IsNullOrEmpty(searchText))
+    {
+        searchDocs(searchText);
+    }
 
     // beispiel fuer Suche 
     /*
@@ -79,6 +87,23 @@ void indexDocs()
     {
 
     }*/
+}
+
+void searchDocs(string searchText)
+{
+    Stopwatch sw = new Stopwatch();
+    sw.Start();
+    var filter = MongoDBHelper.PrepareRegexFilter(searchText);
+    var docs = specifications.Find(filter).ToList();
+    sw.Stop();
+    var time = sw.Elapsed;
+
+    Console.WriteLine("Time passed: " + time);
+
+    foreach (var doc in docs)
+    {
+        Console.WriteLine(doc.ToString());
+    }
 }
 
 void collectDocs()
