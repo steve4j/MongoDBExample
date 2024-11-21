@@ -67,6 +67,7 @@ void indexDocs()
         Console.WriteLine(txt);
     }
 
+
     // beispiel fuer Suche 
     /*
     var bdoc = BsonDocument.Parse("{ fileName: { $regex: \"as.*\"} }");
