@@ -53,13 +53,18 @@ namespace MongoDBLib
                 CsvHelper.CsvReader reader = new CsvHelper.CsvReader(tr, config);
                 CsvHelper.CsvDataReader dataReader = new CsvHelper.CsvDataReader(reader);
                 int recordIndex = 0;
+                List<BsonDocument> bulk = new List<BsonDocument>();
+                bool useBulk = true;
+
 
                 while (reader.Read())
                 {
                     recordIndex++;
 
-                    //if (recordIndex < 67000)
-                      //  continue;
+                    if((double)recordIndex % 10000.0 == 0)
+                    {
+                        Console.WriteLine("Record-Index: " + recordIndex);
+                    }
 
 
                     string[] headerRecord = reader.HeaderRecord;
@@ -87,27 +92,52 @@ namespace MongoDBLib
                     dic["md5"] = md5Str;
 
 
-                    var filter = Builders<BsonDocument>.Filter.Eq("md5", md5Str);
-                    var bdoc = mongoCollection.Find(filter).FirstOrDefault();
+                    
 
-                    try
+                    if (useBulk)
                     {
-                        if (bdoc == null)
+                        bulk.Add(new BsonDocument(dic));
+
+                        if (bulk.Count > 10000)
                         {
-                            bdoc = new BsonDocument(dic);
-                            mongoCollection.InsertOne(bdoc);
-                        }
-                        else
-                        {
-                            mongoCollection.DeleteOne(filter);
-                            mongoCollection.InsertOne(new BsonDocument(dic));
+                            mongoCollection.InsertMany(bulk.ToArray());
+                            bulk.Clear();
                         }
                     }
-                    catch(Exception ex)
+                    else
                     {
-                        Console.WriteLine("Error while indexing line: " + ex.Message);
+                        var filter = Builders<BsonDocument>.Filter.Eq("md5", md5Str);
+                        var bdoc = mongoCollection.Find(filter).FirstOrDefault();
+
+                        try
+                        {
+                            if (bdoc == null)
+                            {
+                                bdoc = new BsonDocument(dic);
+                                mongoCollection.InsertOne(bdoc);
+                            }
+                            else
+                            {
+                                //mongoCollection.DeleteOne(filter);
+                                //mongoCollection.InsertOne(new BsonDocument(dic));
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Error while indexing line: " + ex.Message);
+                        }
                     }
 
+
+                }
+
+                if (useBulk)
+                {
+                    if (bulk.Count > 0)
+                    {
+                        mongoCollection.InsertMany(bulk.ToArray());
+                        bulk.Clear();
+                    }
                 }
             }
         }

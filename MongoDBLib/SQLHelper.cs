@@ -52,11 +52,11 @@ namespace MongoDBLib
 
         public static void SelectDataWithLikeFilter(string filter, bool includeFullText= true)
         {
-            string query = "SELECT * FROM [dbo].[File]";
+            string query = "SELECT * FROM [dbo].[Person]";
 
             if (!filter.IsNullOrEmpty())
             {
-                query += $" where Text like '%{filter}%'";
+                query += $" where fulltext like '%{filter}%'";
             }
 
             using (SqlConnection connection = new SqlConnection(connectionString))

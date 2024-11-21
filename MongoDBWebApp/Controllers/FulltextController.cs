@@ -23,28 +23,48 @@ namespace MongoDBWebApp.Controllers
             var rex = Regex.Escape(fullText);
             var ftFilter = Builders<BsonDocument>.Filter.Regex("fullText", new BsonRegularExpression("/" + rex + "/i"));
 
+
+            var collName = "tables";
+            var collName2 = "specifications";
             var database = dbClient.GetDatabase("dbmigration");
-            var specifications = database.GetCollection<BsonDocument>("specifications");
+            var specifications = database.GetCollection<BsonDocument>(collName);
             var json = "{ fullText: { $regex: \"*" + fullText + "*\" } }";
             var bdoc = BsonDocument.Parse(json);
-            var fo = new FindOptions() { };
+            var fo = new FindOptions() {  };
             var docs = specifications.Find(ftFilter).ToList();
+            var idx = 0;
 
             foreach (var doc in docs)
             {
                 var ftRes = new Result();
                 var eleFt = doc["fullText"];
-                var eleFn = doc["fileName"];
-                var lastWriteTime = doc["lastWriteTime"];
+                var fn = "nofile";
+
+                try
+                {
+                    var eleFn = doc["lastname"];
+                    fn = (eleFn != null ? eleFn.ToString() : null);
+                }
+                catch(Exception)
+                {
+
+                }
 
                 if (includeFulltext)
                     ftRes.FullText = (eleFt != null ? eleFt.ToString() : null);
 
-                ftRes.FileName = (eleFn != null ? eleFn.ToString() : null);
+                ftRes.FileName = fn;
 
                 //ftRes.FileName = doc.Elements["fileName"];
 
                 res.Add(ftRes);
+
+                idx++;
+
+                if(idx > 50)
+                {
+                    break;
+                }
             }
 
             var searchResult = new SearchResult { RequestDuration = sw.ElapsedMilliseconds, Results = res };
@@ -58,31 +78,40 @@ namespace MongoDBWebApp.Controllers
             var sw = Stopwatch.StartNew();
 
             var res = new List<Result>();
-            string query = "SELECT * FROM [dbo].[File]";
+            string query = "SELECT * FROM [dbo].[Person]";
 
             if (!string.IsNullOrEmpty(fullText))
             {
-                query += $" where Text like '%{fullText}%'";
+                query += $" where fulltext like '%{fullText}%'";
             }
 
             using (SqlConnection connection = new SqlConnection(SQLHelper.GetConnectionString()))
             {
                 SqlCommand command = new SqlCommand(query, connection);
+                var idx = 0;
 
                 try
                 {
                     connection.Open();
                     using SqlDataReader reader = command.ExecuteReader();
+
                     while (reader.Read())
                     {
                         var fileResult = new Result
                         {
                             Id = (int)reader["Id"],
-                            FileName = reader["Name"]?.ToString()
+                            FileName = reader["LastName"]?.ToString()
                         };
                         if (includeFulltext)
-                            fileResult.FullText = reader["Text"].ToString();
+                            fileResult.FullText = reader["fulltext"].ToString();
                         res.Add(fileResult);
+
+                        idx++;
+
+                        if (idx > 50)
+                        {
+                            break;
+                        }
                     }
                 }
                 catch (Exception ex)
