@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDBIndexer;
@@ -66,14 +67,6 @@ void indexDocs()
         //pdfEx.ExtractImages(outputDir);
 
         Console.WriteLine(txt);
-    }
-
-    Console.Write("Enter search text for fulltext search: ");
-    string searchText= Console.ReadLine();
-
-    if(!string.IsNullOrEmpty(searchText))
-    {
-        searchDocs(searchText);
     }
 
     // beispiel fuer Suche 
@@ -224,6 +217,46 @@ void filterDocs()
     }
 }
 
+void Eingabe()
+{
+    bool isActive = true;
+    while (isActive)
+    {
+        Console.WriteLine("Was möchten sie tun?: Eingabe von Abfrage: NoSQL = 1 Abfrage SQL = 2. Exit = 9");
+        string inputWhat = Console.ReadLine();
+
+        Console.WriteLine("Bitte den String zum Filtern eingeben");
+
+        string inputFilter = Console.ReadLine();
+
+        if (!inputWhat.IsNullOrEmpty())
+        {
+            if (inputWhat == "1")
+            {
+                searchDocs(inputFilter);
+            }
+            else if (inputWhat == "2")
+            {
+                SQLHelper.SelectDataWithLikeFilter(inputFilter);
+            }
+            else if (inputWhat == "9")
+            {
+                isActive = false;
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.WriteLine("Eingabe nicht erkannt.");
+            }
+        }
+        else
+        {
+            continue;
+        }
+    }
+    SQLHelper.SelectData();
+}
+
 indexDocs();
 
 collectDocs();
@@ -231,3 +264,5 @@ collectDocs();
 //insertDoc();
 
 filterDocs();
+
+Eingabe();
