@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
 
-namespace MongoDBIndexer
+namespace MongoDBLib
 {
     public static class SQLHelper
     {

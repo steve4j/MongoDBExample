@@ -3,10 +3,14 @@ using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDBIndexer;
+using MongoDBLib;
 using System;
 using System.Diagnostics;
 
 string wd = Environment.CurrentDirectory;
+Environment.CurrentDirectory = Path.Combine( 
+    Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(wd))), "input");
+
 Console.WriteLine("Working-Directory: " + wd);
 
 if (MongoDBHelper.IsInstalled())
@@ -224,6 +228,12 @@ void Eingabe()
     {
         Console.WriteLine("Was möchten sie tun?: Eingabe von Abfrage: NoSQL = 1 Abfrage SQL = 2. Exit = 9");
         string inputWhat = Console.ReadLine();
+
+        if(inputWhat == "9")
+        {
+            isActive = false;
+            Environment.Exit(0);
+        }
 
         Console.WriteLine("Bitte den String zum Filtern eingeben");
 

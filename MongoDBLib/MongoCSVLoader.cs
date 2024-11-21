@@ -10,7 +10,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.IdGenerators;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace MongoDBIndexer
+namespace MongoDBLib
 {
     #region MongoCSVLoader class
 

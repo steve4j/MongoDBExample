@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MongoDBIndexer": {
+      "commandName": "Project"
+    }
+  }
+}
