@@ -9,10 +9,15 @@ namespace MongoDBLib
 
         static SQLHelper()
         {
-            if(Environment.MachineName == "IFINB33")
+            if (Environment.MachineName == "IFINB33")
             {
                 connectionString = "Encrypt=True;TrustServerCertificate=True;Integrated Security=SSPI;Pooling=true;Data Source=IFINB33;Initial Catalog=HackathonDb";
             }
+        }
+
+        public static string GetConnectionString()
+        {
+            return connectionString;
         }
 
         public static int InsertData(SqlParameter[] parameters)
@@ -64,9 +69,8 @@ namespace MongoDBLib
             }
         }
 
-        public static List<FulltextResult> SelectDataWithLikeFilter(string filter, bool includeFulltext = true)
+        public static void SelectDataWithLikeFilter(string filter, bool includeFullText= true)
         {
-            var ret = new List<FulltextResult>();
             string query = "SELECT * FROM [dbo].[File]";
 
             if (!filter.IsNullOrEmpty())
@@ -85,14 +89,8 @@ namespace MongoDBLib
                     {
                         while (reader.Read())
                         {
-                            Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]} Text: {reader["Text"]}");
-                            FulltextResult res = new FulltextResult();
-                            res.FileName = Convert.ToString(reader["Name"]);
-
-                            if(includeFulltext)
-                                res.FullText = Convert.ToString(reader["Text"]);
-                            
-                            ret.Add(res);
+                            Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]}");
+                            if (includeFullText) Console.WriteLine($"Text: {reader["Text"]}");
                         }
                     }
                 }
@@ -101,8 +99,6 @@ namespace MongoDBLib
                     Console.WriteLine("Error: " + ex.Message);
                 }
             }
-
-            return ret;
         }
     }
 }
