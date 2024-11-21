@@ -26,7 +26,7 @@ namespace MongoDBWebApp.Controllers
 
             if (searchMethod == SearchMethod.SQL)
             {
-                res = SQLHelper.SelectDataWithLikeFilter(fullText);
+                res = SQLHelper.SelectDataWithLikeFilter(fullText, includeFulltext);
             }
             else
             {

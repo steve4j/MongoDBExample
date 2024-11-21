@@ -11,7 +11,7 @@ namespace MongoDBLib
         {
             if(Environment.MachineName == "IFINB33")
             {
-                connectionString = "Integrated Security=SSPI;Pooling=true;Data Source=IFINB33;Initial Catalog=HackathonDb";
+                connectionString = "Encrypt=True;TrustServerCertificate=True;Integrated Security=SSPI;Pooling=true;Data Source=IFINB33;Initial Catalog=HackathonDb";
             }
         }
 
@@ -64,7 +64,7 @@ namespace MongoDBLib
             }
         }
 
-        public static List<FulltextResult> SelectDataWithLikeFilter(string filter)
+        public static List<FulltextResult> SelectDataWithLikeFilter(string filter, bool includeFulltext = true)
         {
             var ret = new List<FulltextResult>();
             string query = "SELECT * FROM [dbo].[File]";
@@ -88,7 +88,10 @@ namespace MongoDBLib
                             Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]} Text: {reader["Text"]}");
                             FulltextResult res = new FulltextResult();
                             res.FileName = Convert.ToString(reader["Name"]);
-                            res.FullText = Convert.ToString(reader["Text"]);
+
+                            if(includeFulltext)
+                                res.FullText = Convert.ToString(reader["Text"]);
+                            
                             ret.Add(res);
                         }
                     }
