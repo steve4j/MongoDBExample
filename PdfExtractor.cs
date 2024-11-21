@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
+using UglyToad.PdfPig.Rendering.Skia;
+using UglyToad.PdfPig.Graphics.Colors;
+using SkiaSharp;
 
 namespace MongoDBIndexer
 {
