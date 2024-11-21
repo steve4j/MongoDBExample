@@ -16,10 +16,12 @@ namespace MongoDBIndexer
     public class PdfExtractor : IDisposable
     {
         private PdfDocument pdfDocument;
+        private string fileName;
 
         public PdfExtractor(string fileName)
         {
             pdfDocument = PdfDocument.Open(fileName);
+            this.fileName = fileName;
         }
 
         public void Dispose()
@@ -42,6 +44,25 @@ namespace MongoDBIndexer
             }
 
             return sb.ToString();
+        }
+
+        public void ExtractImages(string exportDir)
+        {
+            string fn = Path.GetFileNameWithoutExtension(fileName);
+
+            pdfDocument.AddSkiaPageFactory();
+
+            for (int p = 1; p <= pdfDocument.NumberOfPages; p++)
+            {
+                var picture = pdfDocument.GetPage<SKPicture>(p);
+                var outputFile = Path.Combine(exportDir, $"{fn}_{p}.png");
+
+                using (var fs = new FileStream(outputFile, FileMode.Create))
+                using (var ms = pdfDocument.GetPageAsPng(p, 3f, RGBColor.White))
+                {
+                    ms.WriteTo(fs);
+                }
+            }
         }
     }
 

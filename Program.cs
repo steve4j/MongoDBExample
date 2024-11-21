@@ -4,6 +4,9 @@ using MongoDB.Driver;
 using MongoDBIndexer;
 using System;
 
+string wd = Environment.CurrentDirectory;
+Console.WriteLine("Working-Directory: " + wd);
+
 if (MongoDBHelper.IsInstalled())
 {
     Console.WriteLine("MongoDB server has been identified");
@@ -22,6 +25,10 @@ void indexDocs()
 {
     string cd = Environment.CurrentDirectory;
     string path = Path.Combine(cd, "datenblätter");
+    string outputDir = Path.Combine(cd, "output");
+
+    if (!Directory.Exists(outputDir))
+        Directory.CreateDirectory(outputDir);
 
     foreach(string file in Directory.GetFiles(path, "*.pdf"))
     {
@@ -35,7 +42,9 @@ void indexDocs()
         {
             { "_id", new ObjectId(objectId) },
             { "fileName", fn },
-            { "fullText", txt }
+            { "fullText", txt },
+            { "lastWriteTime", File.GetLastWriteTime(file) },
+            { "fileSize", new FileInfo(file).Length }
         };
 
         var doc = specifications.Find(filter).FirstOrDefault();
@@ -53,8 +62,22 @@ void indexDocs()
 
         }
 
+        //pdfEx.ExtractImages(outputDir);
+
         Console.WriteLine(txt);
     }
+
+    // beispiel fuer Suche 
+    /*
+    var bdoc = BsonDocument.Parse("{ fileName: { $regex: \"as.*\"} }");
+    var builderDetail = Builders<BsonDocument>.Filter;
+    var docs = specifications.Find(bdoc).ToList();
+    var cnt = specifications.CountDocuments(bdoc);
+
+    foreach(var doc in docs)
+    {
+
+    }*/
 }
 
 void collectDocs()
