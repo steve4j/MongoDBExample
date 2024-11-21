@@ -45,28 +45,7 @@ namespace MongoDBLib
 
         public static void SelectData()
         {
-            string query = "SELECT * FROM [dbo].[File]";
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand(query, connection);
-
-                try
-                {
-                    connection.Open();
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]} Text: {reader["Text"]}");
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Error: " + ex.Message);
-                }
-            }
+            SelectDataWithLikeFilter(null);
         }
 
         public static void SelectDataWithLikeFilter(string filter, bool includeFullText= true)
