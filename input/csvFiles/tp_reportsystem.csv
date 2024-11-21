@@ -1,0 +1,965 @@
+﻿ReportSystemID;Sprachkenner;ReportKlasse;Bezeichnung;Sortierung;ObjektTyp;ObjektName;Datenquelle;VBG;VB;ET;ParaFilter;ParaAnsicht;ParaMitLogo;ParaKommentar;ParaDoku;DokuName;FilterTyp;Eigentuemer;UnterKlasse;Druckart;Reportgruppe;Datensort
+186;DE;W;konkretes Angebot;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+186;EN;W;Offer;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+186;FR;W;Offre spécifique;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+186;IT;W;offerta concreta;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+187;DE;W;Auftragsbestätigung;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+187;EN;W;Confirmation of order;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+187;FR;W;Confirmation de commande;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+187;IT;W;conferma d´ordine;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+188;DE;W;Infoangebot;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+188;EN;W;Informational offer;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+188;FR;W;Offre pour information;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+188;IT;W;offerta d´informazione;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+189;DE;W;Auftragseingangsbestätigung;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+189;EN;W;Confirmation of order entry;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+189;FR;W;entrée en vigueur de la commande;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+189;IT;W;conferma di ricevimento d´ordine;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+190;DE;W;Kalkulationsliste Vertretung;15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+190;EN;W;Calculation List (dealer);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+190;FR;W;Calcul de prix (représentant);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+190;IT;W;lista di calcolo (rappresentante);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+191;DE;W;Infoangebot-Vorabdruck;1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+191;EN;W;Informational offer (preview);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+191;FR;W;Offre pour information (aperçu avant impression);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+191;IT;W;offerta d´informazione (stampa anticipata);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+192;DE;W;konkretes Angebot -Vorabdruck;3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+192;EN;W;Offer (Preview);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+192;FR;W;Offre (Aperçu avant impression);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+192;IT;W;offerta concreta (stampa anticipata);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+193;DE;W;Detailkalkulation-TO;19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+193;EN;W;Detail Calculation (TO);19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+193;FR;W;Calcul de prix détaillé;19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+193;IT;W;calcolo di prezzo dettagliato;19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+194;DE;W;Ausschreibung;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+194;EN;W;Tenders;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+194;FR;W;Appels d'offres;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+194;IT;W;bando;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+195;DE;I;Textpflege;1;2;NULL;NULL;ma_texte;texte;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+195;EN;I;Textpflege;1;2;NULL;NULL;ma_texte;texte;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+195;FR;I;Nettoyage du texte;1;2;NULL;NULL;ma_texte;texte;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+195;IT;I;cura di testo;1;2;NULL;NULL;ma_texte;texte;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+197;DE;i;Angebote in Bearbeitung;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+197;EN;i;offers in work;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+197;FR;i;Offres en cours;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+197;IT;i;offerte in elaborazione;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+198;DE;i;Posteingang;NULL;4;Offene_Kontakte;RP_Offene_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+198;EN;i;Posteingang;NULL;4;Offene_Kontakte;RP_Offene_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+198;FR;i;Courrier reçu;NULL;4;Offene_Kontakte;RP_Offene_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+198;IT;i;posta in arrivo;NULL;4;Offene_Kontakte;RP_Offene_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+200;DE;I;Anschriftliste mit Produktinfo;NULL;4;Anschriftliste_Produkt;V_Anschrift;smpstd;reports;anschriftenliste_2;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+200;EN;I;List of addresses with productinfo;NULL;4;Anschriftliste_Produkt;V_Anschrift;smpstd;reports;anschriftenliste_2;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+200;FR;I;Liste d'adresses avec info produit;NULL;4;Anschriftliste_Produkt;V_Anschrift;smpstd;reports;anschriftenliste_2;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+200;IT;I;lista d´indirizzi con informazione sul prodotto;NULL;4;Anschriftliste_Produkt;V_Anschrift;smpstd;reports;anschriftenliste_2;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+201;DE;I;ForecastDiagramm;NULL;4;ForecastDiagramm;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+201;EN;I;Forecast;NULL;4;ForecastDiagramm;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+201;FR;I;Prévision;NULL;4;ForecastDiagramm;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+201;IT;I;valutazione preventiva;NULL;4;ForecastDiagramm;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+202;DE;I;Forecastliste;NULL;4;Forecastliste;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+202;EN;I;Forecastlist;NULL;4;Forecastliste;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+202;FR;I;Liste prévisionnelle;NULL;4;Forecastliste;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+202;IT;I;lista valutazione preventiva;NULL;4;Forecastliste;RP_Forecast;smpstd;reports;Forecast;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+203;DE;I;Angebotsliste_Filter;NULL;4;Kontaktliste;RP_Angebotsliste;smpstd;reports;kontaktliste;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+203;EN;I;List of offers with filter;NULL;4;Kontaktliste;RP_Angebotsliste;smpstd;reports;kontaktliste;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+203;FR;I;Liste des offres filtrées;NULL;4;Kontaktliste;RP_Angebotsliste;smpstd;reports;kontaktliste;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+203;IT;I;lista d´offerte filtrate;NULL;4;Kontaktliste;RP_Angebotsliste;smpstd;reports;kontaktliste;SQL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+204;DE;W;Warenkorbliste;NULL;5;Vo_017_Warenkorbliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+204;EN;W;Warenkorbliste;NULL;5;Vo_017_Warenkorbliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+204;FR;W;Liste dans le panier;NULL;5;Vo_017_Warenkorbliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+204;IT;W;lista paniere;NULL;5;Vo_017_Warenkorbliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+205;DE;F;Kontaktliste nach Kontaktnummer;30;1;F_KontaktNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+205;EN;F;Contact list;30;1;F_KontaktNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+205;FR;F;Liste de contacts par responsable;30;1;F_KontaktNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+205;IT;F;lista contatti assortita via numero contatto;30;1;F_KontaktNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+206;DE;F;Kontaktliste nach Verantwortlicher(m);10;1;F_GruppeBearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+206;EN;F;Contact list;10;1;F_GruppeBearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+206;FR;F;Liste de contacts par chance;10;1;F_GruppeBearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+206;IT;F;lista contatti assortita via responsabile;10;1;F_GruppeBearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+207;DE;F;Kontaktliste nach Chance;20;1;F_GruppeChance;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+207;EN;F;Contact list;20;1;F_GruppeChance;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+207;FR;F;Liste des contacts;20;1;F_GruppeChance;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+207;IT;F;lista contatti;20;1;F_GruppeChance;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+208;DE;F;alle Kontaktberichte;50;1;F_Kontaktberichte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+208;EN;F;all reports with contacts;50;1;F_Kontaktberichte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+208;FR;F;tous les compte-rendus de visite;50;1;F_Kontaktberichte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+208;IT;F;tutte rapporti contatti;50;1;F_Kontaktberichte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+209;DE;A;Adressliste;0;1;A_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+209;EN;A;List of all addresses;0;1;A_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+209;FR;A;Liste des adresses;0;1;A_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+209;IT;A;lista d´indirizzi;0;1;A_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+210;DE;T;kurze Terminliste, sortiert nach Datum;10;1;T_TB_TerminListeKurzDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+210;EN;T;Date list short;10;1;T_TB_TerminListeKurzDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+210;FR;T;Liste des délais suivant date;10;1;T_TB_TerminListeKurzDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+210;IT;T;lista corta d´appuntamenti, assortita per via data;10;1;T_TB_TerminListeKurzDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+211;DE;T;kurze Terminliste, sortiert nach Mitarbeiter;20;1;T_TB_TerminListeKurzMitarbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+211;EN;T;Date list short;20;1;T_TB_TerminListeKurzMitarbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+211;FR;T;Liste des délais suivant employé;20;1;T_TB_TerminListeKurzMitarbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+211;IT;T;lista corta d´appuntamenti, assortita per via collaboratore;20;1;T_TB_TerminListeKurzMitarbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+212;DE;T;ausführliche Terminliste, sortiert nach Datum;30;1;T_TB_TerminListeLangDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+212;EN;T;List of dates;30;1;T_TB_TerminListeLangDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+212;FR;T;Liste détaillée des délais suivant dates;30;1;T_TB_TerminListeLangDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+212;IT;T;lista dettagliata, assortita per via data;30;1;T_TB_TerminListeLangDatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+213;DE;B;aktueller Bericht mit Termine;10;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;2;NULL;NULL;NULL;NULL;NULL
+213;EN;B;act. reports with dates;10;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;2;NULL;NULL;NULL;NULL;NULL
+213;FR;B;Rapport actuel avec délais;10;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;2;NULL;NULL;NULL;NULL;NULL
+213;IT;B;rapporto attuale con appuntamenti;10;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;2;NULL;NULL;NULL;NULL;NULL
+214;DE;B;alle Berichte mit Termine;20;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+214;EN;B;all reports with dates;20;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+214;FR;B;Tous les rapports datés;20;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+214;IT;B;tutti rapporti con appuntamenti;20;1;B_B_BerichtListe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+215;DE;P;Adressliste;0;1;P_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+215;EN;P;List of all addresses;0;1;P_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+215;FR;P;Liste des adresses;0;1;P_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+215;IT;P;lista d´indirizzi;0;1;P_Adressliste;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+216;DE;W;Auftragsbestätigung ohne Preise (Betriebsauftrag);9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+216;EN;W;Confirmation of order without prices;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+216;FR;W;Confirmation de commande sans prix;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+216;IT;W;conferma d´ordine senza prezzi;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+217;DE;W;Detailkalkulation-Rubrik;18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+217;EN;W;Detail Calculation (Category);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+217;FR;W;Détail calcul de prix (par catégories);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+217;IT;W;calcolo di prezzo dettagliato (categoria);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+218;DE;I;Textkonvert;0;1;NULL;NULL;texte;konvert_text;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+218;EN;I;Textkonvert;0;1;NULL;NULL;texte;konvert_text;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+218;FR;I;conversion texte;0;1;NULL;NULL;texte;konvert_text;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+218;IT;I;conversione testo;0;1;NULL;NULL;texte;konvert_text;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+219;DE;W;Ausschreibung - Vorabdruck;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+219;EN;W;Tenders - Preview;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+219;FR;W;appel d'offres - Prévision;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+219;IT;W;bando - stampa anticipata;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+220;DE;I;Auswertung;0;1;NULL;NULL;ma_tool;opt_nutzung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+220;EN;I;Utilization;0;1;NULL;NULL;ma_tool;opt_nutzung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+220;FR;I;Utilisation;0;1;NULL;NULL;ma_tool;opt_nutzung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+220;IT;I;interpretazione;0;1;NULL;NULL;ma_tool;opt_nutzung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+221;DE;W;Auftragsblatt zur techn. Interpretation (Abgleich APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+221;EN;W;Techn. Interpretation (Compare with APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+221;FR;W;Interprétation technique (Compare with APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+221;IT;W;foglio d´ordine per interpretazione tecnica (pareggio APDIAS;99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+222;DE;M;konkretes Angebot;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+222;EN;M;Offer;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+222;FR;M;Offre concrète;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+222;IT;M;offerta concreta;4;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Angebot;2;NULL;F;NULL;NULL;NULL
+223;DE;M;Auftragsbestätigung;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+223;EN;M;Confirmation of order;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+223;FR;M;Confirmation de la commande;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+223;IT;M;conferma d´ordine;8;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Auftragsbestätigung;2;NULL;K;NULL;NULL;NULL
+224;DE;M;Infoangebot;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+224;EN;M;Informational offer;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+224;FR;M;offre pour information;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+224;IT;M;offerta d´informazione;2;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Infoangebot;2;NULL;F;NULL;NULL;NULL
+225;DE;M;Auftragseingangsbestätigung;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+225;EN;M;Confirmation of order entry;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+225;FR;M;entrée en vigueur de la commande;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+225;IT;M;conferma di ricevimento d´ordine;7;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;AuftragsbestätigungE;2;NULL;K;NULL;NULL;NULL
+226;DE;M;Kalkulationsliste Vertretung;15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+226;EN;M;Calculation List (dealer);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+226;FR;M;liste de calculation (représentant);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+226;IT;M;lista calcolo di prezzi (rappresentante);15;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;Kalkulation;2;NULL;NULL;NULL;NULL;NULL
+227;DE;M;Infoangebot-Vorabdruck;1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+227;EN;M;Informational offer (preview);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+227;FR;M;offre pour information (prévisionnelle);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+227;IT;M;offerta d´informazione (stampa anticipata);1;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;InfoangebotV;2;NULL;F;NULL;NULL;NULL
+228;DE;M;konkretes Angebot -Vorabdruck;3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+228;EN;M;Offer (Preview);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+228;FR;M;Offre concrète (prévisionnelle);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+228;IT;M;offerta concreta (stampa anticipata);3;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;AngebotV;2;NULL;F;NULL;NULL;NULL
+229;DE;M;Detailkalkulation-TO;19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+229;EN;M;Detail Calculation (TO);19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+229;FR;M;Calculation détaillée (TO);19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+229;IT;M;calcolo dettagliato (TO);19;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationTO;2;NULL;NULL;NULL;NULL;NULL
+230;DE;M;Ausschreibung;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+230;EN;M;Tenders;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+230;FR;M;Appel d'Offres;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+230;IT;M;bando;6;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;Ausschreibung;2;NULL;F;NULL;NULL;NULL
+231;DE;M;Auftragsbestätigung ohne Preise (Betriebsauftrag);9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+231;EN;M;Confirmation of order without prices;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+231;FR;M;Confirmation de commande sans prix;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+231;IT;M;conferma d´ordine (senza prezzi);9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Betriebsauftrag;2;NULL;K;NULL;NULL;NULL
+232;DE;M;Detailkalkulation-Rubrik;18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+232;EN;M;Detail Calculation (Category);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+232;FR;M;Calculation détaillée (par catégories);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+232;IT;M;calcolo di prezzo dettagliato (categoria);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationRu;2;NULL;NULL;NULL;NULL;NULL
+233;DE;M;Ausschreibung - Vorabdruck;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+233;EN;M;Tenders - Preview;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+233;FR;M;appel d'offres - Prévision;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+233;IT;M;bando - stampa anticipata;5;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Ausschreibung;smtext.Dokument;AusschreibungV;2;NULL;F;NULL;NULL;NULL
+234;DE;I;Auftragseingang;NULL;4;Auftragseingang;RP_Auftragseingang;ma_reports;auftragseingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+234;EN;I;Order entry;NULL;4;Auftragseingang;RP_Auftragseingang;ma_reports;auftragseingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+234;FR;I;entrée en vigueur de la commande;NULL;4;Auftragseingang;RP_Auftragseingang;ma_reports;auftragseingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+234;IT;I;ricevimento d´ordine;NULL;4;Auftragseingang;RP_Auftragseingang;ma_reports;auftragseingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+235;DE;I;Auftragsbestand_Baumonat;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand;start;smtext.Filter;NULL;NULL;NULL;smtext.Dokument;AB_Baumonat;1;NULL;NULL;1;NULL;NULL
+235;EN;I;Orders on hand - month of production;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand;start;smtext.Filter;NULL;NULL;NULL;smtext.Dokument;AB_Baumonat;1;NULL;NULL;1;NULL;NULL
+235;FR;I;contingent de Commande - mois de production;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand;start;smtext.Filter;NULL;NULL;NULL;smtext.Dokument;AB_Baumonat;1;NULL;NULL;1;NULL;NULL
+235;IT;I;portafoglio ordini - mese di produzione;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand;start;smtext.Filter;NULL;NULL;NULL;smtext.Dokument;AB_Baumonat;1;NULL;NULL;1;NULL;NULL
+236;DE;I;Auftragsbestand_Auftragseingang;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand_aeingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+236;EN;I;Orders on hand;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand_aeingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+236;FR;I;Commande confirmée;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand_aeingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+236;IT;I;portafoglio ordini - ricevimento ordini;NULL;4;Auftragsbestand_Baumonat;RP_Auftragseingang_Baumonat;ma_reports;auftragsbestand_aeingang;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+238;DE;I;Preisauskunft;0;2;NULL;NULL;ma_katalog;preisauskunft;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+238;EN;I;Preisauskunft;0;2;NULL;NULL;ma_katalog;preisauskunft;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+238;FR;I;renseignement de prix;0;2;NULL;NULL;ma_katalog;preisauskunft;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+238;IT;I;informazione di prezzo;0;2;NULL;NULL;ma_katalog;preisauskunft;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;NULL;NULL
+239;DE;I;Auftragsabwicklung;0;2;Auftragsabwicklung;NULL;ma_reports;auftragsabwicklung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;Auftrag;NULL
+239;EN;I;Order processing;0;2;Auftragsabwicklung;NULL;ma_reports;auftragsabwicklung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;Auftrag;NULL
+239;FR;I;Liquidation de commande;0;2;Auftragsabwicklung;NULL;ma_reports;auftragsabwicklung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;Auftrag;NULL
+239;IT;I;svolgimento d´ordini;0;2;Auftragsabwicklung;NULL;ma_reports;auftragsabwicklung;start;Dummy;NULL;NULL;NULL;NULL;NULL;0;NULL;NULL;NULL;Auftrag;NULL
+240;DE;I;Auftragsabwicklung_Liste;NULL;4;Auftragsabwicklung_Liste;RP_Auftragsuebersicht;ma_reports;auftragsabwicklung_liste;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+240;EN;I;Order processing list;NULL;4;Auftragsabwicklung_Liste;RP_Auftragsuebersicht;ma_reports;auftragsabwicklung_liste;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+240;FR;I;Liste des commandes liquidées;NULL;4;Auftragsabwicklung_Liste;RP_Auftragsuebersicht;ma_reports;auftragsabwicklung_liste;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+240;IT;I;lista svolgimento d´ordini;NULL;4;Auftragsabwicklung_Liste;RP_Auftragsuebersicht;ma_reports;auftragsabwicklung_liste;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+242;DE;I;Vo_002_M-PIC-Übersicht;NULL;5;Vo_002_M-PIC-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+242;EN;I;Vo_002_M-PIC-Übersicht;NULL;5;Vo_002_M-PIC-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+242;FR;I;Vo_002_M-PIC-vue d´ensemble;NULL;5;Vo_002_M-PIC-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+242;IT;I;Vo_002_M-PIC-prospettiva;NULL;5;Vo_002_M-PIC-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+243;DE;I;Vo_003_Offene Kontakte;NULL;5;Vo_003_Offene Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+243;EN;I;Vo_003_Offene Kontakte;NULL;5;Vo_003_Offene Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+243;FR;I;Vo_003_contacts vacants;NULL;5;Vo_003_Offene Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+243;IT;I;Vo_003_contatti aperti;NULL;5;Vo_003_Offene Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+244;DE;I;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;5;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+244;EN;I;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;5;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+244;FR;I;"Vo_004_commandes; no.-GP manque dans l´adresse";NULL;5;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+244;IT;I;"Vo_004_ordini; numero GP manca nel indirizzo";NULL;5;"Vo_004_Aufträge; GP-Nummer fehlt in der Anschrift";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+245;DE;I;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;5;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+245;EN;I;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;5;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+245;FR;I;Vo_005_liste de référence tout les LKZ tout les FZG depuis 2;NULL;5;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+245;IT;I;Vo_005_lista referenze tutti LKZ tutti FZG da 2002;NULL;5;Vo_005_Referenzliste alle LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+246;DE;I;Vo_006_Entscheidungsstrukturen - alle;NULL;5;Vo_006_Entscheidungsstrukturen - alle;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+246;EN;I;Vo_006_Entscheidungsstrukturen - alle;NULL;5;Vo_006_Entscheidungsstrukturen - alle;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+246;FR;I;Vo_006_toute les structures de décision;NULL;5;Vo_006_Entscheidungsstrukturen - alle;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+246;IT;I;Vo_006_strutture decisioni - tutte;NULL;5;Vo_006_Entscheidungsstrukturen - alle;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+247;DE;I;Vo_007_SW-Verwendung Aufträge;NULL;5;Vo_007_SW-Verwendung Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+247;EN;I;Vo_007_SW-Verwendung Aufträge;NULL;5;Vo_007_SW-Verwendung Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+247;FR;I;Vo_007_SW-commandes d´utilisation;NULL;5;Vo_007_SW-Verwendung Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+247;IT;I;Vo_007_SW-utilizzazione ordini;NULL;5;Vo_007_SW-Verwendung Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+248;DE;I;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;5;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+248;EN;I;Vo_008_offres vacantes tout les résponsables de dossier;NULL;5;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+248;FR;I;Vo_008_offres vacantes tout les résponsables de dossier;NULL;5;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+248;IT;I;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;5;Vo_008_Offene Angebote alle Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+249;DE;I;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;5;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+249;EN;I;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;5;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+249;FR;I;Vo_009_commandes vacantes par résponsable de dossier;NULL;5;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+249;IT;I;Vo_009_ordini aperte per incaricato;NULL;5;Vo_009_Offene Aufträge pro Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+250;DE;I;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;5;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+250;EN;I;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;5;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+250;FR;I;Vo_010_offres vacantes par résponsable de dossier individuel;NULL;5;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+250;IT;I;Vo_010_offerte aperte per ogni singolo incaricato;NULL;5;Vo_010_Offene Angebote pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+251;DE;I;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;5;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+251;EN;I;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;5;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+251;FR;I;Vo_011_commandes vacantes par résponsable de dossier, indivi;NULL;5;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+251;IT;I;Vo_011_ordini aperte per ogni singolo incaricato;NULL;5;Vo_011_Offene Aufträge pro Sachbearbeiter einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+252;DE;I;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+252;EN;I;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+252;FR;I;"Vo_012_liste de référence tout les LKZ, tout les FZG depuis ";NULL;5;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+252;IT;I;Vo_012_lista referenze tutte LKZ un FZG da 2002;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+253;DE;I;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;5;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+253;EN;I;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;5;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+253;FR;I;Vo_013_liste de référence un LKZ un FZG depuis 2002;NULL;5;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+253;IT;I;Vo_013_lista referenze un LKZ un FZG da 2002;NULL;5;Vo_013_Referenzliste ein LKZ ein FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+254;DE;I;Vo_014_Fakturierte Aufträge Deutschland;NULL;5;Vo_014_Fakturierte Aufträge Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+254;EN;I;Vo_014_Fakturierte Aufträge Deutschland;NULL;5;Vo_014_Fakturierte Aufträge Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+254;FR;I;Vo_014_commandes facturées Allemagne;NULL;5;Vo_014_Fakturierte Aufträge Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+254;IT;I;Vo_014_ordini fatturate Germania;NULL;5;Vo_014_Fakturierte Aufträge Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+255;DE;I;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;5;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+255;EN;I;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;5;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+255;FR;I;Vo_015_structure de décision- séléction no. SW;NULL;5;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+255;IT;I;Vo_015_strutture decisioni - selezione no. SW;NULL;5;Vo_015_Entscheidungsstrukturen - Selektion SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+256;DE;A;Selektierte Anschriften drucken;NULL;5;Vo_016_Anschriftenliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+256;EN;A;Selektierte Anschriften drucken;NULL;5;Vo_016_Anschriftenliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+256;FR;A;imprimer adresses sélectionées;NULL;5;Vo_016_Anschriftenliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+256;IT;A;stampare indirizzi selezionati;NULL;5;Vo_016_Anschriftenliste;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+257;DE;W;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+257;EN;W;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+257;FR;W;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+257;IT;W;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+258;DE;K;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+258;EN;K;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+258;FR;K;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+258;IT;K;test;NULL;1;test;ODBC;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+259;DE;I;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;5;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+259;EN;I;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;5;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+259;FR;I;Vo_018_structure de décision - séléction Bez;NULL;5;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+259;IT;I;Vo_018_strutture decisioni - selezione Bez;NULL;5;Vo_018_Entscheidungsstrukturen - Selektion Bez;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+260;DE;I;Auftragsbestand_Fue;NULL;2;Auftragsbestand_Fue;NULL;ma_reports;auftragsbestand_fue;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+260;EN;I;Orders on hand - management meeting;NULL;2;Auftragsbestand_Fue;NULL;ma_reports;auftragsbestand_fue;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+260;FR;I;contenu de commande _Fue;NULL;2;Auftragsbestand_Fue;NULL;ma_reports;auftragsbestand_fue;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+260;IT;I;portafoglio ordini _Fue;NULL;2;Auftragsbestand_Fue;NULL;ma_reports;auftragsbestand_fue;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+262;DE;I;Vo_022_Offene Aufträge Weisweil;NULL;5;Vo_022_Offene Aufträge Weisweil;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+262;EN;I;Vo_022_Offene Aufträge Weisweil;NULL;5;Vo_022_Offene Aufträge Weisweil;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+262;FR;I;Vo_022_commandes vacantes Weisweil;NULL;5;Vo_022_Offene Aufträge Weisweil;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+262;IT;I;Vo_022_ordini aperte Weisweil;NULL;5;Vo_022_Offene Aufträge Weisweil;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+263;DE;I;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;5;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+263;EN;I;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;5;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+263;FR;I;Vo_023_liste de référence un LKZ tout les FZG depuis 2002;NULL;5;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+263;IT;I;Vo_023_lista referenze un LKZ tutti FZG da 2002;NULL;5;Vo_023_Referenzliste ein LKZ alle FZG seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+264;DE;M;Auftragsblatt zur techn. Interpretation (Abgleich APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+264;EN;M;Techn. Interpretation (Compare with APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+264;FR;M;Interpretation techn. (Comparer avec APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+264;IT;M;interpretazione tecnica (pareggio APDIAS);99;2;NULL;NULL;ma_apdias;auftragsblatt;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsblatt;smtext.Dokument;Auftragsblatt;2;NULL;K;NULL;NULL;NULL
+265;DE;I;Vo_025_Auftragsabwicklung Status;NULL;5;Vo_025_Auftragsabwicklung Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+265;EN;I;Vo_025_Auftragsabwicklung Status;NULL;5;Vo_025_Auftragsabwicklung Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+265;FR;I;Vo_025_Status exécution des commandes;NULL;5;Vo_025_Auftragsabwicklung Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+265;IT;I;Vo_025_stato svolgimento ordini;NULL;5;Vo_025_Auftragsabwicklung Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+266;DE;I;Vo_099_Test;NULL;5;Vo_099_Test;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+266;EN;I;Vo_099_Test;NULL;5;Vo_099_Test;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+266;FR;I;Vo_099_Test;NULL;5;Vo_099_Test;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+266;IT;I;Vo_099_Test;NULL;5;Vo_099_Test;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+267;DE;M;Detailkalkulation-Kosten(Rubrik);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+267;EN;M;Detail Calculation (Category);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+267;FR;M;Calculation de détails dépenses (Categorie);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+267;IT;M;calcolo dettagliato - costi (categoria);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+268;DE;W;Detailkalkulation-Kosten(Rubrik);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+268;EN;W;Detail Calculation (Category);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+268;FR;W;calculation de détail (Category);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+268;IT;W;calcolo dettagliato - costi (categoria);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationKO;2;NULL;NULL;NULL;NULL;NULL
+269;DE;I;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;5;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+269;EN;I;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;5;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+269;FR;I;Vo_027_commande affctation -SW(nombre);NULL;5;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+269;IT;I;Vo_027_SW-utilizzazione ordini (quantità);NULL;5;Vo_027_SW-Verwendung Aufträge (Anzahl);NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+270;DE;I;Vo_026_Auftragseingang Statistisches Landesamt;NULL;5;Vo_026_Auftragseingang Statistisches Landesamt;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+270;EN;I;Vo_026_Auftragseingang Statistisches Landesamt;NULL;5;Vo_026_Auftragseingang Statistisches Landesamt;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+270;FR;I;Vo_026_entrée de commande administration statique;NULL;5;Vo_026_Auftragseingang Statistisches Landesamt;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+270;IT;I;Vo_026_ricevimento ordini ente federale di stato;NULL;5;Vo_026_Auftragseingang Statistisches Landesamt;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+271;DE;I;Vo_028_Angebote-Zeitraum;NULL;5;Vo_028_Angebote-Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+271;EN;I;Vo_028_Angebote-Zeitraum;NULL;5;Vo_028_Angebote-Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+271;FR;I;Vo_028_durée de l´offre;NULL;5;Vo_028_Angebote-Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+271;IT;I;Vo_028_offerte - periodo;NULL;5;Vo_028_Angebote-Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+272;DE;I;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;5;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+272;EN;I;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;5;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+272;FR;I;Vo_030_commandes_durée_représentant;NULL;5;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+272;IT;I;Vo_030_ordini_periodo_rappresentante;NULL;5;Vo_030_Aufträge_Zeitraum_Vertretung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+273;DE;I;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;5;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+273;EN;I;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;5;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+273;FR;I;Vo_031_offre_durée_résponsable dossier;NULL;5;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+273;IT;I;Vo_031_offerte-periodo-incaricato;NULL;5;Vo_031_Angebote-Zeitraum-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+274;DE;I;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;5;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+274;EN;I;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;5;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+274;FR;I;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;5;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+274;IT;I;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;5;Vo_033_Referenzliste alle Drehleitern D seit 2002;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+275;DE;I;Vo_032_Aufträge_Zeitraum_Region;NULL;5;Vo_032_Aufträge_Zeitraum_Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+275;EN;I;Vo_032_Aufträge_Zeitraum_Region;NULL;5;Vo_032_Aufträge_Zeitraum_Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+275;FR;I;Vo_032_commandes_durée_région;NULL;5;Vo_032_Aufträge_Zeitraum_Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+275;IT;I;Vo_032_ordini_periodo_regione;NULL;5;Vo_032_Aufträge_Zeitraum_Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+276;DE;I;Vo_034_Angebote-Zeitraum-Details;NULL;5;Vo_034_Angebote-Zeitraum-Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+276;EN;I;Vo_034_Angebote-Zeitraum-Details;NULL;5;Vo_034_Angebote-Zeitraum-Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+276;FR;I;Vo_034_offres-durée-détails;NULL;5;Vo_034_Angebote-Zeitraum-Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+276;IT;I;Vo_034_offerte - periodo - dettagli;NULL;5;Vo_034_Angebote-Zeitraum-Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+277;DE;I;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;5;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+277;EN;I;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;5;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+277;FR;I;Vo_035_commandes-durée- Bureau intern;NULL;5;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+277;IT;I;Vo_035_ordini - periodo - ufficio interno;NULL;5;Vo_035_Aufträge-Zeitraum-Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+278;DE;I;Vo_036_Angebote-Zeitraum-Status;NULL;5;Vo_036_Angebote-Zeitraum-Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+278;EN;I;Vo_036_Angebote-Zeitraum-Status;NULL;5;Vo_036_Angebote-Zeitraum-Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+278;FR;I;Vo_036_offres-durée-status;NULL;5;Vo_036_Angebote-Zeitraum-Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+278;IT;I;Vo_036_offerte-periodo-stato;NULL;5;Vo_036_Angebote-Zeitraum-Status;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+279;DE;I;Vo_037_Referenzliste RW;NULL;5;Vo_037_Referenzliste RW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+279;EN;I;Vo_037_Referenzliste RW;NULL;5;Vo_037_Referenzliste RW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+279;FR;I;Vo_037_liste de référennce RW;NULL;5;Vo_037_Referenzliste RW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+279;IT;I;Vo_037_lista referenze RW;NULL;5;Vo_037_Referenzliste RW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+280;DE;I;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;5;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+280;EN;I;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;5;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+280;FR;I;Lotz_001_touts les véhicules avec châssis iveco depuis 2005;NULL;5;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+280;IT;I;Lotz_001_tutti FZG con telaio Iveco da 2005;NULL;5;Lotz_001_alle FZG mit Fahrgestell Iveco seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+281;DE;I;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;5;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+281;EN;I;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;5;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+281;FR;I;Lotz_002_touts les véhicule avec châssis DC depuis 2005;NULL;5;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+281;IT;I;Lotz_002_tutti FZG con telaio DC da 2005;NULL;5;Lotz_002_alle FZG mit Fahrgestell DC seit 2005;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+282;DE;I;Vo_038_Fakturierte Aufträge;NULL;5;Vo_038_Fakturierte Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+282;EN;I;Vo_038_Fakturierte Aufträge;NULL;5;Vo_038_Fakturierte Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+282;FR;I;Vo_038_commandes facturées;NULL;5;Vo_038_Fakturierte Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+282;IT;I;Vo_038_ordini fatturati;NULL;5;Vo_038_Fakturierte Aufträge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+283;DE;I;Vo_039_Auftragseingang ohne Lohr;NULL;5;Vo_039_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+283;EN;I;Vo_039_Auftragseingang ohne Lohr;NULL;5;Vo_039_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+283;FR;I;Vo_039_entrée de commandes sans Lohr;NULL;5;Vo_039_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+283;IT;I;Vo_039_ricevimento ordini senza Lohr;NULL;5;Vo_039_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+285;DE;I;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;5;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+285;EN;I;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;5;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+285;FR;I;Vo_041_offres-durée-comparatif annuel;NULL;5;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+285;IT;I;Vo_041_offerte - periodo - confronto annuale;NULL;5;Vo_041_Angebote-Zeitraum-Jahresvergleich;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+286;DE;I;Vo_042_Auftragsbestand ohne Lohr;NULL;5;Vo_042_Auftragsbestand ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+286;EN;I;Vo_042_Auftragsbestand ohne Lohr;NULL;5;Vo_042_Auftragsbestand ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+286;FR;I;Vo_042_contenu de commande sans Lohr;NULL;5;Vo_042_Auftragsbestand ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+286;IT;I;Vo_042_portafoglio ordini senza Lohr;NULL;5;Vo_042_Auftragsbestand ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+287;DE;I;Vo_043_Auftragsbestand incl Lohr;NULL;5;Vo_043_Auftragsbestand incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+287;EN;I;Vo_043_Auftragsbestand incl Lohr;NULL;5;Vo_043_Auftragsbestand incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+287;FR;I;Vo_043_contenu de commande Lohr inclu;NULL;5;Vo_043_Auftragsbestand incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+287;IT;I;Vo_043_portafoglio ordini incl. Lohr;NULL;5;Vo_043_Auftragsbestand incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+288;DE;I;Vo_040_Auftragseingang incl Lohr;NULL;5;Vo_040_Auftragseingang incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+288;EN;I;Vo_040_Auftragseingang incl Lohr;NULL;5;Vo_040_Auftragseingang incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+288;FR;I;Vo_040_entrée de commande Lohr inclu;NULL;5;Vo_040_Auftragseingang incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+288;IT;I;Vo_040_ricevimento ordini incl. Lohr;NULL;5;Vo_040_Auftragseingang incl Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+289;DE;I;Vo_044_Verlustmeldungen;NULL;5;Vo_044_Verlustmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+289;EN;I;Vo_044_Verlustmeldungen;NULL;5;Vo_044_Verlustmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+289;FR;I;Vo_044_avis de perte;NULL;5;Vo_044_Verlustmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+289;IT;I;Vo_044_avviso di perdita;NULL;5;Vo_044_Verlustmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+290;DE;I;Vo_046_Auftragseingang_Deutschland;NULL;5;Vo_046_Auftragseingang_Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+290;EN;I;Vo_046_Auftragseingang_Deutschland;NULL;5;Vo_046_Auftragseingang_Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+290;FR;I;Vo_046_entrée de commande allemagne;NULL;5;Vo_046_Auftragseingang_Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+290;IT;I;"Vo_046_ricevimento ordini_Germania ";NULL;5;Vo_046_Auftragseingang_Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+291;DE;I;Vo_047_Auftragseingang_Export;NULL;5;Vo_047_Auftragseingang_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+291;EN;I;Vo_047_Auftragseingang_Export;NULL;5;Vo_047_Auftragseingang_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+291;FR;I;Vo_047_entrée de commande_export;NULL;5;Vo_047_Auftragseingang_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+291;IT;I;Vo_047_ricevimento ordini_Export;NULL;5;Vo_047_Auftragseingang_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+292;DE;I;Merkmale_upd;NULL;2;Merkmale_upd;NULL;ma_tool3;start;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+292;EN;I;Merkmale_upd;NULL;2;Merkmale_upd;NULL;ma_tool3;start;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+292;FR;I;caractèristique_upd;NULL;2;Merkmale_upd;NULL;ma_tool3;start;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+292;IT;I;caratteristiche_upd;NULL;2;Merkmale_upd;NULL;ma_tool3;start;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+293;DE;I;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;5;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+293;EN;I;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;5;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+293;FR;I;Vo_042a_contenu de commandesans Lohr  trié entréeA;NULL;5;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+293;IT;I;Vo_042a_portafoglio ordini senza Lohr, assortito ricevimento;NULL;5;Vo_042a_Auftragsbestand ohne Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+294;DE;I;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;5;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+294;EN;I;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;5;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+294;FR;I;Vo_043a_contenu de commande Lohr inclu trié Aentrée;NULL;5;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+294;IT;I;"Vo_043a_portafoglio ordine incl. Lohr assortito ricevimento ";NULL;5;Vo_043a_Auftragsbestand incl Lohr sort Aeingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+295;DE;I;Gebiet_abgl;NULL;2;Gebiet_abgl;NULL;ma_anschrift;gebiet_abgleich;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+295;EN;I;Areas;NULL;2;Gebiet_abgl;NULL;ma_anschrift;gebiet_abgleich;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+295;FR;I;comparer régions;NULL;2;Gebiet_abgl;NULL;ma_anschrift;gebiet_abgleich;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+295;IT;I;compensare regioni;NULL;2;Gebiet_abgl;NULL;ma_anschrift;gebiet_abgleich;start;Dummy;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+296;DE;I;"Vo_049_Katalog; neu angelegt";NULL;5;"Vo_049_Katalog; neu angelegt";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+296;EN;I;"Vo_049_Katalog; neu angelegt";NULL;5;"Vo_049_Katalog; neu angelegt";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+296;FR;I;"Vo_049_catalogue; retravaillé";NULL;5;"Vo_049_Katalog; neu angelegt";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+296;IT;I;"Vo_049_catalogo; creato nuovo";NULL;5;"Vo_049_Katalog; neu angelegt";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+297;DE;I;Vo_022_Offene Aufträge Ulm;NULL;5;Vo_022_Offene Aufträge Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+297;EN;I;Vo_022_Offene Aufträge Ulm;NULL;5;Vo_022_Offene Aufträge Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+297;FR;I;Vo_022_commandes vacantes Ulm;NULL;5;Vo_022_Offene Aufträge Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+297;IT;I;Vo_022_ordini aperte Ulm;NULL;5;Vo_022_Offene Aufträge Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+298;DE;I;Vo_022_Offene Aufträge Görlitz;NULL;5;Vo_022_Offene Aufträge Görlitz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+298;EN;I;Vo_022_Offene Aufträge Görlitz;NULL;5;Vo_022_Offene Aufträge Görlitz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+298;FR;I;Vo_022_Commandes vacantes Görlitz;NULL;5;Vo_022_Offene Aufträge Görlitz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+298;IT;I;Vo_022_ordini aperte Görlitz;NULL;5;Vo_022_Offene Aufträge Görlitz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+299;DE;I;Vo_022_Offene Aufträge Graz;NULL;5;Vo_022_Offene Aufträge Graz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+299;EN;I;Vo_022_Offene Aufträge Graz;NULL;5;Vo_022_Offene Aufträge Graz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+299;FR;I;Vo_022_commandes vacantes Graz;NULL;5;Vo_022_Offene Aufträge Graz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+299;IT;I;Vo_022_ordini aperte Graz;NULL;5;Vo_022_Offene Aufträge Graz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+304;DE;P;Brief_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Person;2;NULL;NULL;NULL;NULL;NULL
+304;EN;P;Letter_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Person;2;NULL;NULL;NULL;NULL;NULL
+304;FR;P;Lettre_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Person;2;NULL;NULL;NULL;NULL;NULL
+304;IT;P;lettera_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Person;2;NULL;NULL;NULL;NULL;NULL
+305;DE;A;Brief_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+305;EN;A;Letter_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+305;FR;A;Lettre_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+305;IT;A;lettera_Fax;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;Brief_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+306;DE;P;LV_Anforderung;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Person;2;NULL;NULL;NULL;NULL;NULL
+306;EN;P;LV_Anforderung;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Person;2;NULL;NULL;NULL;NULL;NULL
+306;FR;P;LV_Anforderung;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Person;2;NULL;NULL;NULL;NULL;NULL
+306;IT;P;"richiesta LV ";NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Person;2;NULL;NULL;NULL;NULL;NULL
+307;DE;A;LV_Anforderung;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+307;EN;A;LV_Anforderung;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+307;FR;A;LV_réquisition;NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+307;IT;A;"richiesta LV ";NULL;2;NULL;NULL;ma_anschrift;brief_fax;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;LV_Anford_Anschrift;2;NULL;NULL;NULL;NULL;NULL
+308;DE;I;Gebietabgleich;NULL;2;NULL;NULL;ma_tool_gebiet_all;anschriften_lesen;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+308;EN;I;Areas;NULL;2;NULL;NULL;ma_tool_gebiet_all;anschriften_lesen;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+308;FR;I;alignement région;NULL;2;NULL;NULL;ma_tool_gebiet_all;anschriften_lesen;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+308;IT;I;compensare regioni;NULL;2;NULL;NULL;ma_tool_gebiet_all;anschriften_lesen;start;smtext.Filter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+309;DE;I;Vo_050_Referenzliste TS;NULL;5;Vo_050_Referenzliste TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+309;EN;I;Vo_050_Referenzliste TS;NULL;5;Vo_050_Referenzliste TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+309;FR;I;Vo_050_liste de référence TS;NULL;5;Vo_050_Referenzliste TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+309;IT;I;Vo_050_liste referenze TS;NULL;5;Vo_050_Referenzliste TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+310;DE;I;Auftragsbestand_FueWW;NULL;2;Auftragsbestand_FueWW;NULL;ma_reports;auftragsbestand_fueww;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+310;EN;I;Orders on hand - management meeting Weisweil;NULL;2;Auftragsbestand_FueWW;NULL;ma_reports;auftragsbestand_fueww;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+310;FR;I;contenu de commande _FueWW;NULL;2;Auftragsbestand_FueWW;NULL;ma_reports;auftragsbestand_fueww;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+310;IT;I;portafoglio ordini_FueWW;NULL;2;Auftragsbestand_FueWW;NULL;ma_reports;auftragsbestand_fueww;start;Dummy;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;NULL;NULL;NULL
+311;DE;I;Vo_051_Bauprogramm;NULL;5;Vo_051_Bauprogramm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+311;EN;I;Vo_051_Bauprogramm;NULL;5;Vo_051_Bauprogramm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+311;FR;I;Vo_051_programme de construction;NULL;5;Vo_051_Bauprogramm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+311;IT;I;Vo_051_programma di costruzione;NULL;5;Vo_051_Bauprogramm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+312;DE;I;Vo_052_Bauprogramm_Werk_Jahr;NULL;5;Vo_052_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+312;EN;I;Vo_052_Bauprogramm_Werk_Jahr;NULL;5;Vo_052_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+312;FR;I;Vo_052_programme de construction_usine_année;NULL;5;Vo_052_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+312;IT;I;"Vo_052_programma di costruzione_fabbrica_anno ";NULL;5;Vo_052_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+313;DE;I;"Vo_008b_Offene Angebote; Termin überschritten";NULL;5;"Vo_008b_Offene Angebote; Termin überschritten";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+313;EN;I;"Vo_008b_Offene Angebote; Termin überschritten";NULL;5;"Vo_008b_Offene Angebote; Termin überschritten";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+313;FR;I;"Vo_008b_offres vacante; date expirée";NULL;5;"Vo_008b_Offene Angebote; Termin überschritten";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+313;IT;I;Vo_008b_offerte aperte, data superata;NULL;5;"Vo_008b_Offene Angebote; Termin überschritten";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+314;DE;I;Vo_053_Orders_Iveco_Magirus;NULL;5;Vo_053_Orders_Iveco_Magirus;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+314;EN;I;Vo_053_Orders_Iveco_Magirus;NULL;5;Vo_053_Orders_Iveco_Magirus;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+314;FR;I;Vo_053_commandes_Iveco_Magirus;NULL;5;Vo_053_Orders_Iveco_Magirus;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+314;IT;I;Vo_053_ordini_Iveco_Magirus;NULL;5;Vo_053_Orders_Iveco_Magirus;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+315;DE;I;Vo_054_Suche nach FahrgestellNummer;NULL;5;Vo_054_Suche nach FahrgestellNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+315;EN;I;Vo_054_Suche nach FahrgestellNummer;NULL;5;Vo_054_Suche nach FahrgestellNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+315;FR;I;Vo_054_recherche par no. De châssis;NULL;5;Vo_054_Suche nach FahrgestellNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+315;IT;I;Vo_054_cerca numero telaio;NULL;5;Vo_054_Suche nach FahrgestellNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+316;DE;I;Vo_055_Grünmeldungen;NULL;5;Vo_055_Grünmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+316;EN;I;Vo_055_Grünmeldungen;NULL;5;Vo_055_Grünmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+316;FR;I;Vo_055_avis positif;NULL;5;Vo_055_Grünmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+316;IT;I;Vo_055_avvisi positivi;NULL;5;Vo_055_Grünmeldungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+317;DE;I;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;5;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+317;EN;I;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;5;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+317;FR;I;Vo_056_avis positif_stock de distribution;NULL;5;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+317;IT;I;Vo_056_avvisi positivi_stock distribuzione;NULL;5;Vo_056_Grünmeldungen_Vertriebsbestand;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+318;DE;I;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;5;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+318;EN;I;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;5;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+318;FR;I;Vo_057_programme de construction_LF_planing de montage;NULL;5;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+318;IT;I;"Vo_057_programma costruzione_LF progettazione funzionamento ";NULL;5;Vo_057_Bauprogramm_LF_Ablaufplanung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+319;DE;I;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;5;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+319;EN;I;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;5;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+319;FR;I;Vo_040b_entrée de commande Lohr incl. terrain de constructio;NULL;5;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+319;IT;I;"Vo_040b_ricevuta d´ordine incl. Lohr incl. area edificabile ";NULL;5;Vo_040b_Auftragseingang incl Lohr incl Bauplatz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+320;DE;I;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;5;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+320;EN;I;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;5;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+320;FR;I;Vo_008c_offres vacantes, planing d´approvisionement;NULL;5;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+320;IT;I;"Vo_008c_offerte aperte  incl. progettazione procacciamento ";NULL;5;Vo_008c_Offene Angebote incl gepl Beschaffungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+321;DE;M;Detailkalkulation-Kostenentwicklung;18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+321;EN;M;Detail Calculation (Cost evolution);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+321;FR;M;calculation de détail (évolution de coûts);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+321;IT;M;calcolo dettagliato (sviluppo costi);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+322;DE;W;Detailkalkulation-Kostenentwicklung;18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+322;EN;W;Detail Calculation (Cost evolution);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+322;FR;W;calculation de détail (évolution de coûts);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+322;IT;W;calcolo dettagliato (sviluppo costi);18;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;DetailkalkulationAGPakt;2;NULL;NULL;NULL;NULL;NULL
+323;DE;I;Vo_059_Referenzliste_interne_Verwendung;NULL;5;Vo_059_Referenzliste_interne_Verwendung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+323;EN;I;Vo_059_Referenzliste_interne_Verwendung;NULL;5;Vo_059_Referenzliste_interne_Verwendung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+323;FR;I;Vo_059_liste de référence_interne_ utilisation;NULL;5;Vo_059_Referenzliste_interne_Verwendung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+323;IT;I;"Vo_059_lista referenze_utilizzazione interna ";NULL;5;Vo_059_Referenzliste_interne_Verwendung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+326;DE;I;Vo_054b_Suche nach VANNummer;NULL;5;Vo_054b_Suche nach VANNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+326;EN;I;Vo_054b_Suche nach VANNummer;NULL;5;Vo_054b_Suche nach VANNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+326;FR;I;Vo_054b_recherche de no. VAN;NULL;5;Vo_054b_Suche nach VANNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+326;IT;I;"Vo_054b_cerca numero VAN ";NULL;5;Vo_054b_Suche nach VANNummer;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+328;DE;i;Angebote in Bearbeitung;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+328;EN;i;Angebote in Bearbeitung;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+328;FR;i;élaboration offre en cours;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+328;IT;i;offerte in elaborazione;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+329;DE;i;Angebote in Bearbeitung;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+329;EN;i;Angebote in Bearbeitung;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+329;FR;i;élaboration offre en cours;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+329;IT;i;offerte in elaborazione;NULL;4;Kontakte_in_Bearbeitung;RP_Bearbeitete_Kontakte;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;1;NULL;NULL;1;NULL;NULL
+330;DE;I;Vo_036f_Angebote-Deutschland_Marketing1;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+330;EN;I;Vo_036f_Angebote-Deutschland_Marketing1;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+330;FR;I;Vo_036f_offre-allemagne_marketing1;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+330;IT;I;"Vo_036f_offerte-Germania_Marketing1 ";NULL;5;Vo_036f_Angebote-Deutschland_Marketing1;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+331;DE;I;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+331;EN;I;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+331;FR;I;Vo_036f_offre-allemagne_marketing1_détails;NULL;5;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+331;IT;I;"Vo_036f_offerte-Germania_Marketing1_dettagli ";NULL;5;Vo_036f_Angebote-Deutschland_Marketing1_Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+332;DE;I;Vo_043b_Auftragsbestand D+CH sort Fahrzeugtyp;NULL;5;Vo_043b_Auftragsbestand D+CH;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+332;EN;I;Vo_043b_Auftragsbestand D+CH sort Fahrzeugtyp;NULL;5;Vo_043b_Auftragsbestand D+CH;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+332;FR;I;Vo_043b_contenu de commande D+CH trié par type de véhicule;NULL;5;Vo_043b_Auftragsbestand D+CH;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+332;IT;I;"Vo_043b_portafoglio ordini D+CH assortiti per tipo telaio ";NULL;5;Vo_043b_Auftragsbestand D+CH;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+333;DE;I;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;5;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+333;EN;I;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;5;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+333;FR;I;Vo_043c_contenu de commande internat. NetSales incl.;NULL;5;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+333;IT;I;"Vo_043c_portafoglio ordini estero incl. vendite netto       ";NULL;5;Vo_043c_Auftragsbestand Ausland incl NetSales;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+334;DE;I;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+334;EN;I;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+334;FR;I;Vo_043d_contenu de commande D groupé par région;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+334;IT;I;"Vo_043d_portafoglio ordini D raggruppato per regione ";NULL;5;Vo_043d_Auftragsbestand D gruppiert nach Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+335;DE;I;Vo_043b_Auftragsbestand D+CH sort Region;NULL;5;Vo_043b_Auftragsbestand D+CH sort Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+335;EN;I;Vo_043b_Auftragsbestand D+CH sort Region;NULL;5;Vo_043b_Auftragsbestand D+CH sort Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+335;FR;I;Vo_043b_contenu de commande D+Ch trié par région;NULL;5;Vo_043b_Auftragsbestand D+CH sort Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+335;IT;I;"Vo_043b_portafoglio D+CH assortiti per regione ";NULL;5;Vo_043b_Auftragsbestand D+CH sort Region;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+336;DE;I;Vo_008d_LV noch anzufordern;NULL;5;Vo_008d_LV noch anzufordern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+336;EN;I;Vo_008d_LV noch anzufordern;NULL;5;Vo_008d_LV noch anzufordern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+336;FR;I;Vo_008d_LV à requérir;NULL;5;Vo_008d_LV noch anzufordern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+336;IT;I;"Vo_008d_LV a richiedere ";NULL;5;Vo_008d_LV noch anzufordern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+337;DE;M;Gerippe-Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+337;EN;M;Gerippe-Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+337;FR;M;option - ossature;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+337;IT;M;opzioni - intelaiatura;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+338;DE;W;Gerippe-Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+338;EN;W;Gerippe-Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+338;FR;W;option - ossature;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+338;IT;W;opzioni - intelaiatura;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;Gerippe;2;NULL;K;NULL;NULL;NULL
+339;DE;I;Vo_002b_KSW-Übersicht;NULL;5;Vo_002b_KSW-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+339;EN;I;"Vo_002b_KSW-prospettiva ";NULL;5;Vo_002b_KSW-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+339;FR;I;Vo_002b_vue d´ensemble-KSW;NULL;5;Vo_002b_KSW-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+339;IT;I;"Vo_002b_KSW-prospettiva ";NULL;5;Vo_002b_KSW-Übersicht;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+340;DE;I;Vo_021b_Offene Angebote Ulm;NULL;5;Vo_021b_Offene Angebote Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+340;EN;I;Vo_021b_Offene Angebote Ulm;NULL;5;Vo_021b_Offene Angebote Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+340;FR;I;Vo_021b_offres vacante ULM;NULL;5;Vo_021b_Offene Angebote Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+340;IT;I;"Vo_021b_offerte aperte Ulm ";NULL;5;Vo_021b_Offene Angebote Ulm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+341;DE;I;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;5;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+341;EN;I;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;5;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+341;FR;I;Vo_023b_liste de référence un LKZ touts les FZG triage étran;NULL;5;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+341;IT;I;Vo_023b_liste referenze un LKZ tutti  FZG assortiti per este;NULL;5;Vo_023b_Referenzliste ein LKZ alle FZG sort Ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+342;DE;I;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;5;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+342;EN;I;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;5;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+342;FR;I;Vo_007b_SW-application commnande - sort ausl;NULL;5;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+342;IT;I;"Vo_007b_SW-utilizzazione ordini - assortiti per estero ";NULL;5;Vo_007b_SW-Verwendung Aufträge - sort ausl;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+343;DE;I;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;5;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+343;EN;I;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;5;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+343;FR;I;Vo_007c_SW-application commande date de livr. Inclu;NULL;5;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+343;IT;I;"Vo_007c_SW-utilizzazione ordini incl. data di consegna ";NULL;5;Vo_007c_SW-Verwendung Aufträge incl. Liefertermin;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+344;DE;I;Vo_052b_Bauprogramm_Werk_Jahr;NULL;5;Vo_052b_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+344;EN;I;Vo_052b_Bauprogramm_Werk_Jahr;NULL;5;Vo_052b_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+344;FR;I;Vo_052b_programme de construction_usine_année;NULL;5;Vo_052b_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+344;IT;I;"Vo_052b_programma di costruzione_fabbrica_anno ";NULL;5;Vo_052b_Bauprogramm_Werk_Jahr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+345;DE;I;Vo_052c_Bauprogramm_Excel;NULL;5;Vo_052c_Bauprogramm_Excel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+345;EN;I;Vo_052c_Bauprogramm_Excel;NULL;5;Vo_052c_Bauprogramm_Excel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+345;FR;I;Vo_052c_programme de construction_Excel;NULL;5;Vo_052c_Bauprogramm_Excel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+345;IT;I;"Vo_052c_programma di costruzione_Excel ";NULL;5;Vo_052c_Bauprogramm_Excel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+346;DE;I;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;5;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+346;EN;I;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;5;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+346;FR;I;Vo_002c_SW_idendificateur_ossature;NULL;5;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+346;IT;I;"Vo_002c_SW_marcatura intelaiatura ";NULL;5;Vo_002c_SW_Kennzeichnung_Gerippe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+347;DE;I;Vo_007d_SW-Verwendung Angebote;NULL;5;Vo_007d_SW-Verwendung Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+347;EN;I;Vo_007d_SW-Verwendung Angebote;NULL;5;Vo_007d_SW-Verwendung Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+347;FR;I;Vo_007d_SW-application offre;NULL;5;Vo_007d_SW-Verwendung Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+347;IT;I;"Vo_007d_SW-utilizzazione offerte ";NULL;5;Vo_007d_SW-Verwendung Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+349;DE;I;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;5;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+349;EN;I;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;5;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+349;FR;I;Vo_010b_offres vacantes résp. De dossier bureau interne;NULL;5;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+349;IT;I;"Vo_010b_offerte aperte incaricato ufficio interno ";NULL;5;Vo_010b_Offene Angebote Backoffice-Sachbearbeiter;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+350;DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+350;EN;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+350;FR;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+350;IT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+351;DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+351;EN;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+351;FR;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+351;IT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+360;DE;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+360;EN;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+360;FR;I;Vo_010c_offres vacantes bureau interne;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+360;IT;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+361;DE;I;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;5;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+361;EN;I;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;5;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+361;FR;I;Vo_010d_pas d´offre bureau interne allemagne;NULL;5;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+361;IT;I;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;5;Vo_010d_Kein Angebot Backoffice Deutschland;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+362;DE;M;Komponenten - Beschreibungen;8;2;NULL;NULL;ma_druck;komponenten_beschr;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;KomponentenBeschr;2;NULL;NULL;NULL;NULL;NULL
+362;EN;M;Descriptions;8;2;NULL;NULL;ma_druck;komponenten_beschr;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;KomponentenBeschr;2;NULL;NULL;NULL;NULL;NULL
+362;FR;M;déscriptions - composants;8;2;NULL;NULL;ma_druck;komponenten_beschr;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;KomponentenBeschr;2;NULL;NULL;NULL;NULL;NULL
+362;IT;M;Komponenten - Beschreibungen;8;2;NULL;NULL;ma_druck;komponenten_beschr;START;smtext.Filter;smtext.Ansicht;NULL;Auftragsbestätigung;smtext.Dokument;KomponentenBeschr;2;NULL;NULL;NULL;NULL;NULL
+363;DE;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+363;EN;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+363;FR;I;Vo_010c_offres vacantes bureau interne;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+363;IT;I;Vo_010c_Offene Angebote Backoffice;NULL;5;Vo_010c_Offene Angebote Backoffice;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+364;DE;I;Vo_060_AufträgeTS_XLS;NULL;5;Vo_060_AufträgeTS_XLS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+364;EN;I;Vo_060_AufträgeTS_XLS;NULL;5;Vo_060_AufträgeTS_XLS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+364;FR;I;Vo_060_AufträgeTS_XLS;NULL;5;Vo_060_AufträgeTS_XLS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+364;IT;I;Vo_060_AufträgeTS_XLS;NULL;5;Vo_060_AufträgeTS_XLS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+365;DE;M;AGP-Druck (MPIC ab 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+365;EN;M;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+365;FR;M;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+365;IT;M;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+366;DE;W;AGP-Druck (MPIC ab 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+366;EN;W;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+366;FR;W;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+366;IT;W;AGP-Printout (MPIC from 04/13);9;2;NULL;NULL;ma_warenkorb;agp_drucken;START;smtext.Filter;smtext.Ansicht;NULL;AGP;smtext.Dokument;AGP;2;NULL;NULL;NULL;NULL;NULL
+367;DE;I;Vo_033b_Referenzliste TSF;NULL;5;Vo_033b_Referenzliste TSF;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+367;EN;I;Vo_033b_Referenzliste TSF;NULL;5;Vo_033b_Referenzliste TSF;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+367;FR;I;Vo_033b_Referenzliste TSF;NULL;5;Vo_033b_Referenzliste TSF;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+367;IT;I;Vo_033b_Referenzliste TSF;NULL;5;Vo_033b_Referenzliste TSF;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+369;DE;I;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+369;EN;I;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+369;FR;I;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+369;IT;I;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+370;DE;I;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+370;EN;I;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+370;FR;I;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+370;IT;I;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+371;DE;I;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+371;EN;I;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+371;FR;I;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+371;IT;I;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+372;DE;I;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+372;EN;I;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+372;FR;I;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+372;IT;I;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;5;Vo_027d_KSW-Verwendung P-Warenkörbe mit Details;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+373;DE;I;Vo_048_Workflow-Status_P-Warenkörbe;NULL;5;Vo_048_Workflow-Status_P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+373;EN;I;Vo_048_Workflow-Status_P-Warenkörbe;NULL;5;Vo_048_Workflow-Status_P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+373;FR;I;Vo_048_Workflow-Status_P-Warenkörbe;NULL;5;Vo_048_Workflow-Status_P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+373;IT;I;Vo_048_Workflow-Status_P-Warenkörbe;NULL;5;Vo_048_Workflow-Status_P-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+374;DE;I;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;5;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+374;EN;I;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;5;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+374;FR;I;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;5;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+374;IT;I;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;5;Vo_048_Workflow-Status_alle-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+375;DE;I;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;5;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+375;EN;I;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;5;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+375;FR;I;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;5;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+375;IT;I;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;5;Vo_048_Workflow-Status_P1-Warenkörbe_Woche;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+376;DE;I;Vo_048_Workflow-Status_Ferrisi;NULL;5;Vo_048_Workflow-Status_Ferrisi;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+376;EN;I;Vo_048_Workflow-Status_Ferrisi;NULL;5;Vo_048_Workflow-Status_Ferrisi;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+376;FR;I;Vo_048_Workflow-Status_Ferrisi;NULL;5;Vo_048_Workflow-Status_Ferrisi;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+376;IT;I;Vo_048_Workflow-Status_Ferrisi;NULL;5;Vo_048_Workflow-Status_Ferrisi;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+377;DE;I;Vo_061_Mitarbeiterkürzel;NULL;5;Vo_061_Mitarbeiterkürzel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+377;EN;I;Vo_061_Mitarbeiterkürzel;NULL;5;Vo_061_Mitarbeiterkürzel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+377;FR;I;Vo_061_Mitarbeiterkürzel;NULL;5;Vo_061_Mitarbeiterkürzel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+377;IT;I;Vo_061_Mitarbeiterkürzel;NULL;5;Vo_061_Mitarbeiterkürzel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+378;DE;I;Vo_048_Workflow-Status_AuftrNr;NULL;5;Vo_048_Workflow-Status_AuftrNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+378;EN;I;Vo_048_Workflow-Status_AuftrNr;NULL;5;Vo_048_Workflow-Status_AuftrNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+378;FR;I;Vo_048_Workflow-Status_AuftrNr;NULL;5;Vo_048_Workflow-Status_AuftrNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+378;IT;I;Vo_048_Workflow-Status_AuftrNr;NULL;5;Vo_048_Workflow-Status_AuftrNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+379;DE;F;Vehicle Checklist;1;2;NULL;NULL;ma_kontakt;drucke_checklist;START;smtext.Filter;smtext.Ansicht;NULL;Checklist;smtext.Dokument;Checklist;2;NULL;NULL;NULL;NULL;NULL
+379;EN;F;Vehicle Checklist;1;2;NULL;NULL;ma_kontakt;drucke_checklist;START;smtext.Filter;smtext.Ansicht;NULL;Checklist;smtext.Dokument;Checklist;2;NULL;NULL;NULL;NULL;NULL
+379;FR;F;Vehicle Checklist;1;2;NULL;NULL;ma_kontakt;drucke_checklist;START;smtext.Filter;smtext.Ansicht;NULL;Checklist;smtext.Dokument;Checklist;2;NULL;NULL;NULL;NULL;NULL
+379;IT;F;Vehicle Checklist;1;2;NULL;NULL;ma_kontakt;drucke_checklist;START;smtext.Filter;smtext.Ansicht;NULL;Checklist;smtext.Dokument;Checklist;2;NULL;NULL;NULL;NULL;NULL
+380;DE;I;Vo_046_Auftragseingang_Schweiz;NULL;5;Vo_046_Auftragseingang_Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+380;EN;I;Vo_046_Auftragseingang_Schweiz;NULL;5;Vo_046_Auftragseingang_Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+380;FR;I;Vo_046_Auftragseingang_Schweiz;NULL;5;Vo_046_Auftragseingang_Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+380;IT;I;Vo_046_Auftragseingang_Schweiz;NULL;5;Vo_046_Auftragseingang_Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+381;DE;K;Auftragseingangsbestätigung;1;2;NULL;NULL;ma_auftrag;drucke_eing_best;START;smtext.Filter;smtext.Ansicht;NULL;Eing_Best;smtext.Dokument;Eing_Best;2;NULL;NULL;NULL;NULL;NULL
+381;EN;K;Auftragseingangsbestätigung;1;2;NULL;NULL;ma_auftrag;drucke_eing_best;START;smtext.Filter;smtext.Ansicht;NULL;Eing_Best;smtext.Dokument;Eing_Best;2;NULL;NULL;NULL;NULL;NULL
+381;FR;K;Auftragseingangsbestätigung;1;2;NULL;NULL;ma_auftrag;drucke_eing_best;START;smtext.Filter;smtext.Ansicht;NULL;Eing_Best;smtext.Dokument;Eing_Best;2;NULL;NULL;NULL;NULL;NULL
+381;IT;K;Auftragseingangsbestätigung;1;2;NULL;NULL;ma_auftrag;drucke_eing_best;START;smtext.Filter;smtext.Ansicht;NULL;Eing_Best;smtext.Dokument;Eing_Best;2;NULL;NULL;NULL;NULL;NULL
+382;DE;I;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;5;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+382;EN;I;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;5;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+382;FR;I;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;5;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+382;IT;I;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;5;Vo_048_Workflow-Status_V1-Warenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+383;DE;I;Vo_062_Auftragsstatus D;NULL;5;Vo_062_Auftragsstatus D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+383;EN;I;Vo_062_Auftragsstatus D;NULL;5;Vo_062_Auftragsstatus D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+383;FR;I;Vo_062_Auftragsstatus D;NULL;5;Vo_062_Auftragsstatus D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+383;IT;I;Vo_062_Auftragsstatus D;NULL;5;Vo_062_Auftragsstatus D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+384;DE;I;Vo_063_Aufträge_Vertretung_Typ;NULL;5;Vo_063_Aufträge_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+384;EN;I;Vo_063_Aufträge_Vertretung_Typ;NULL;5;Vo_063_Aufträge_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+384;FR;I;Vo_063_Aufträge_Vertretung_Typ;NULL;5;Vo_063_Aufträge_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+384;IT;I;Vo_063_Aufträge_Vertretung_Typ;NULL;5;Vo_063_Aufträge_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+385;DE;I;Report_Angebote;NULL;2;NULL;NULL;ma_liste_ang_auftr;start;start;smtext.Filter;sm;NULL;Report-Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+385;EN;I;Report_Angebote;NULL;2;NULL;NULL;ma_liste_ang_auftr;start;start;smtext.Filter;sm;NULL;Report-Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+385;FR;I;Report_Angebote;NULL;2;NULL;NULL;ma_liste_ang_auftr;start;start;smtext.Filter;sm;NULL;Report-Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+385;IT;I;Report_Angebote;NULL;2;NULL;NULL;ma_liste_ang_auftr;start;start;smtext.Filter;sm;NULL;Report-Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+386;DE;I;Vo_040c_Aufträge_incl_VORRAT;NULL;5;Vo_040c_Aufträge_incl_VORRAT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+386;EN;I;Vo_040c_Aufträge_incl_VORRAT;NULL;5;Vo_040c_Aufträge_incl_VORRAT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+386;FR;I;Vo_040c_Aufträge_incl_VORRAT;NULL;5;Vo_040c_Aufträge_incl_VORRAT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+386;IT;I;Vo_040c_Aufträge_incl_VORRAT;NULL;5;Vo_040c_Aufträge_incl_VORRAT;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+387;DE;I;Vo_048_Workflow-Status_T_Drehleitern;NULL;5;Vo_048_Workflow-Status_T_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+387;EN;I;Vo_048_Workflow-Status_T_Drehleitern;NULL;5;Vo_048_Workflow-Status_T_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+387;FR;I;Vo_048_Workflow-Status_T_Drehleitern;NULL;5;Vo_048_Workflow-Status_T_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+387;IT;I;Vo_048_Workflow-Status_T_Drehleitern;NULL;5;Vo_048_Workflow-Status_T_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+388;DE;I;Vo_048_Workflow-Status_P_Drehleitern;NULL;5;Vo_048_Workflow-Status_P_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+388;EN;I;Vo_048_Workflow-Status_P_Drehleitern;NULL;5;Vo_048_Workflow-Status_P_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+388;FR;I;Vo_048_Workflow-Status_P_Drehleitern;NULL;5;Vo_048_Workflow-Status_P_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+388;IT;I;Vo_048_Workflow-Status_P_Drehleitern;NULL;5;Vo_048_Workflow-Status_P_Drehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+389;DE;I;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;5;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+389;EN;I;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;5;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+389;FR;I;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;5;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+389;IT;I;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;5;Vo_048f_Workflow-Status_Ferrisi_Pennata;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+390;DE;I;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+390;EN;I;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+390;FR;I;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+390;IT;I;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+391;DE;I;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+391;EN;I;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+391;FR;I;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+391;IT;I;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;5;Vo_058_Referenzliste_Gelenkdrehleitern_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+392;DE;I;"Vo_027f; KSWs_Orders";NULL;5;"Vo_027f; KSWs_Orders";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+392;EN;I;"Vo_027f; KSWs_Orders";NULL;5;"Vo_027f; KSWs_Orders";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+392;FR;I;"Vo_027f; KSWs_Orders";NULL;5;"Vo_027f; KSWs_Orders";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+392;IT;I;"Vo_027f; KSWs_Orders";NULL;5;"Vo_027f; KSWs_Orders";NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+393;DE;I;Vo_064_one_offer_all_options;NULL;5;Vo_064_one_offer_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+393;EN;I;Vo_064_one_offer_all_options;NULL;5;Vo_064_one_offer_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+393;FR;I;Vo_064_one_offer_all_options;NULL;5;Vo_064_one_offer_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+393;IT;I;Vo_064_one_offer_all_options;NULL;5;Vo_064_one_offer_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+394;DE;I;Vo_064_one_order_all_options;NULL;5;Vo_064_one_order_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+394;EN;I;Vo_064_one_order_all_options;NULL;5;Vo_064_one_order_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+394;FR;I;Vo_064_one_order_all_options;NULL;5;Vo_064_one_order_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+394;IT;I;Vo_064_one_order_all_options;NULL;5;Vo_064_one_order_all_options;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+395;DE;I;Vo_065_Angebote_D_Zeitraum;NULL;5;Vo_065_Angebote_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+395;EN;I;Vo_065_Angebote_D_Zeitraum;NULL;5;Vo_065_Angebote_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+395;FR;I;Vo_065_Angebote_D_Zeitraum;NULL;5;Vo_065_Angebote_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+395;IT;I;Vo_065_Angebote_D_Zeitraum;NULL;5;Vo_065_Angebote_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+396;DE;I;Vo_066_Aufträge_D_Zeitraum;NULL;5;Vo_066_Aufträge_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+396;EN;I;Vo_066_Aufträge_D_Zeitraum;NULL;5;Vo_066_Aufträge_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+396;FR;I;Vo_066_Aufträge_D_Zeitraum;NULL;5;Vo_066_Aufträge_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+396;IT;I;Vo_066_Aufträge_D_Zeitraum;NULL;5;Vo_066_Aufträge_D_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+397;DE;M;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+397;EN;M;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+397;FR;M;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+397;IT;M;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+398;DE;W;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+398;EN;W;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+398;FR;W;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+398;IT;W;TEAM CAB Optionen;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;TeamCab;2;NULL;K;NULL;NULL;NULL
+399;DE;I;five_panel;NULL;2;NULL;NULL;ma_five_panel;start;start;smtext.Filter;sm;NULL;Five-Panel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+399;EN;I;five_panel;NULL;2;NULL;NULL;ma_five_panel;start;start;smtext.Filter;sm;NULL;Five-Panel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+399;FR;I;five_panel;NULL;2;NULL;NULL;ma_five_panel;start;start;smtext.Filter;sm;NULL;Five-Panel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+399;IT;I;five_panel;NULL;2;NULL;NULL;ma_five_panel;start;start;smtext.Filter;sm;NULL;Five-Panel;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+400;DE;F;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+400;EN;F;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+400;FR;F;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+400;IT;F;Dealsheet;1;2;NULL;NULL;ma_kontakt;dealsheet;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+401;DE;I;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;5;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+401;EN;I;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;5;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+401;FR;I;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;5;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+401;IT;I;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;5;Vo_063_Aufträge_CH_Vertretung_Typ;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+402;DE;I;Vo_014_Fakturierte Aufträge Schweiz;NULL;5;Vo_014_Fakturierte Aufträge Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+402;EN;I;Vo_014_Fakturierte Aufträge Schweiz;NULL;5;Vo_014_Fakturierte Aufträge Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+402;FR;I;Vo_014_Fakturierte Aufträge Schweiz;NULL;5;Vo_014_Fakturierte Aufträge Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+402;IT;I;Vo_014_Fakturierte Aufträge Schweiz;NULL;5;Vo_014_Fakturierte Aufträge Schweiz;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+403;DE;I;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;5;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+403;EN;I;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;5;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+403;FR;I;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;5;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+403;IT;I;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;5;Vo_014_Fakturierte Aufträge Deutschland nur O2;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+404;DE;I;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+404;EN;I;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+404;FR;I;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+404;IT;I;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_P_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+405;DE;I;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+405;EN;I;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+405;FR;I;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+405;IT;I;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;5;Vo_048_Workflow-Status_T_Löschfahrzeuge;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+406;DE;I;Vo_069_Aufträge_Konventionalstrafe;NULL;5;Vo_069_Aufträge_Konventionalstrafe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+406;EN;I;Vo_069_Aufträge_Konventionalstrafe;NULL;5;Vo_069_Aufträge_Konventionalstrafe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+406;FR;I;Vo_069_Aufträge_Konventionalstrafe;NULL;5;Vo_069_Aufträge_Konventionalstrafe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+406;IT;I;Vo_069_Aufträge_Konventionalstrafe;NULL;5;Vo_069_Aufträge_Konventionalstrafe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+407;DE;I;Vo_070_Aufträge_C&B_fehlt_D;NULL;5;Vo_070_Aufträge_C&B_fehlt_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+407;EN;I;Vo_070_Aufträge_C&B_fehlt_D;NULL;5;Vo_070_Aufträge_C&B_fehlt_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+407;FR;I;Vo_070_Aufträge_C&B_fehlt_D;NULL;5;Vo_070_Aufträge_C&B_fehlt_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+407;IT;I;Vo_070_Aufträge_C&B_fehlt_D;NULL;5;Vo_070_Aufträge_C&B_fehlt_D;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+408;DE;I;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;5;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+408;EN;I;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;5;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+408;FR;I;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;5;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+408;IT;I;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;5;Vo_007d_SW-Verwendung Angebote - Sonderaktion2016;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+409;DE;I;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;5;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+409;EN;I;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;5;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+409;FR;I;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;5;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+409;IT;I;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;5;Vo_007b_SW-Verwendung Aufträge - mehrereSW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+410;DE;I;P0;NULL;2;NULL;NULL;tool_p0_erstellen;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;P0;2;NULL;NULL;NULL;NULL;NULL
+410;EN;I;P0;NULL;2;NULL;NULL;tool_p0_erstellen;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;P0;2;NULL;NULL;NULL;NULL;NULL
+410;FR;I;P0;NULL;2;NULL;NULL;tool_p0_erstellen;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;P0;2;NULL;NULL;NULL;NULL;NULL
+410;IT;I;P0;NULL;2;NULL;NULL;tool_p0_erstellen;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;P0;2;NULL;NULL;NULL;NULL;NULL
+411;DE;I;Vo_010c_Offene Angebote Fehlende ADB;NULL;5;Vo_010c_Offene Angebote Fehlende ADB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+411;EN;I;Vo_010c_Offene Angebote Fehlende ADB;NULL;5;Vo_010c_Offene Angebote Fehlende ADB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+411;FR;I;Vo_010c_Offene Angebote Fehlende ADB;NULL;5;Vo_010c_Offene Angebote Fehlende ADB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+411;IT;I;Vo_010c_Offene Angebote Fehlende ADB;NULL;5;Vo_010c_Offene Angebote Fehlende ADB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+412;DE;I;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;5;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+412;EN;I;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;5;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+412;FR;I;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;5;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+412;IT;I;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;5;Vo_007c_SW-Verwendung Auftr nicht ausgel nur P-WK;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+413;DE;I;Vo_010c_Angebote nach Abgabedatum;NULL;5;Vo_010c_Angebote nach Abgabedatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+413;EN;I;Vo_010c_Angebote nach Abgabedatum;NULL;5;Vo_010c_Angebote nach Abgabedatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+413;FR;I;Vo_010c_Angebote nach Abgabedatum;NULL;5;Vo_010c_Angebote nach Abgabedatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+413;IT;I;Vo_010c_Angebote nach Abgabedatum;NULL;5;Vo_010c_Angebote nach Abgabedatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+414;DE;I;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+414;EN;I;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+414;FR;I;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+414;IT;I;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_P_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+415;DE;I;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+415;EN;I;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+415;FR;I;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+415;IT;I;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;5;Vo_048_Workflow-Status_T_Tragkraftspritze;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+416;DE;I;WakVgl;NULL;2;NULL;;ma_wak_vgl;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;WakVgl;2;NULL;NULL;NULL;Außendienst;NULL
+416;EN;I;WakVgl;NULL;2;NULL;;ma_wak_vgl;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;WakVgl;2;NULL;NULL;NULL;Außendienst;NULL
+416;FR;I;WakVgl;NULL;2;NULL;;ma_wak_vgl;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;WakVgl;2;NULL;NULL;NULL;Außendienst;NULL
+416;IT;I;WakVgl;NULL;2;NULL;;ma_wak_vgl;start;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;WakVgl;2;NULL;NULL;NULL;Außendienst;NULL
+417;DE;I;Vo_060b_Auftragsstatus_TS;NULL;5;Vo_060b_Auftragsstatus_TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+417;EN;I;Vo_060b_Auftragsstatus_TS;NULL;5;Vo_060b_Auftragsstatus_TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+417;FR;I;Vo_060b_Auftragsstatus_TS;NULL;5;Vo_060b_Auftragsstatus_TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+417;IT;I;Vo_060b_Auftragsstatus_TS;NULL;5;Vo_060b_Auftragsstatus_TS;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+418;DE;I;Vo_027_SW-Verwendung Angebote Summe;NULL;5;Vo_027_SW-Verwendung Angebote Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+418;EN;I;Vo_027_SW-Verwendung Angebote Summe;NULL;5;Vo_027_SW-Verwendung Angebote Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+418;FR;I;Vo_027_SW-Verwendung Angebote Summe;NULL;5;Vo_027_SW-Verwendung Angebote Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+418;IT;I;Vo_027_SW-Verwendung Angebote Summe;NULL;5;Vo_027_SW-Verwendung Angebote Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+419;DE;I;Vo_027_SW-Verwendung Aufträge Summe;NULL;5;Vo_027_SW-Verwendung Aufträge Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+419;EN;I;Vo_027_SW-Verwendung Aufträge Summe;NULL;5;Vo_027_SW-Verwendung Aufträge Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+419;FR;I;Vo_027_SW-Verwendung Aufträge Summe;NULL;5;Vo_027_SW-Verwendung Aufträge Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+419;IT;I;Vo_027_SW-Verwendung Aufträge Summe;NULL;5;Vo_027_SW-Verwendung Aufträge Summe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+420;DE;I;Vo_073_Auftrag_AGP;NULL;5;Vo_073_Auftrag_AGP;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+421;DE;I;Vo_074_Auftragspositionen_DispoArt6;NULL;5;Vo_074_Auftragspositionen_DispoArt6;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+422;DE;I;Vo_076_Aufträge mit Abgasnorm;NULL;5;Vo_076_Aufträge mit Abgasnorm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+422;EN;I;Vo_076_Aufträge mit Abgasnorm;NULL;5;Vo_076_Aufträge mit Abgasnorm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+422;FR;I;Vo_076_Aufträge mit Abgasnorm;NULL;5;Vo_076_Aufträge mit Abgasnorm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+422;IT;I;Vo_076_Aufträge mit Abgasnorm;NULL;5;Vo_076_Aufträge mit Abgasnorm;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+423;DE;I;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+423;EN;I;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+423;FR;I;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+423;IT;I;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;5;Vo_012_Referenzliste alle LKZ ein FZG mit BestNr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+424;DE;I;Vo_077_EC-Line_Musterwarenkörbe;NULL;5;Vo_077_EC-Line_Musterwarenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+424;EN;I;Vo_077_EC-Line_Musterwarenkörbe;NULL;5;Vo_077_EC-Line_Musterwarenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+424;FR;I;Vo_077_EC-Line_Musterwarenkörbe;NULL;5;Vo_077_EC-Line_Musterwarenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+424;IT;I;Vo_077_EC-Line_Musterwarenkörbe;NULL;5;Vo_077_EC-Line_Musterwarenkörbe;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+425;DE;I;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+425;EN;I;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+425;FR;I;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+425;IT;I;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+426;DE;I;Vo_070_Aufträge_C&B_fehlt_Export;NULL;5;Vo_070_Aufträge_C&B_fehlt_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+426;EN;I;Vo_070_Aufträge_C&B_fehlt_Export;NULL;5;Vo_070_Aufträge_C&B_fehlt_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+426;FR;I;Vo_070_Aufträge_C&B_fehlt_Export;NULL;5;Vo_070_Aufträge_C&B_fehlt_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+426;IT;I;Vo_070_Aufträge_C&B_fehlt_Export;NULL;5;Vo_070_Aufträge_C&B_fehlt_Export;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+427;DE;I;Vo_067_Auftragseingang_Check;NULL;5;Vo_067_Auftragseingang_Check;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+427;EN;I;Vo_067_Auftragseingang_Check;NULL;5;Vo_067_Auftragseingang_Check;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+427;FR;I;Vo_067_Auftragseingang_Check;NULL;5;Vo_067_Auftragseingang_Check;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+427;IT;I;Vo_067_Auftragseingang_Check;NULL;5;Vo_067_Auftragseingang_Check;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+428;DE;I;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+428;EN;I;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+428;FR;I;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+428;IT;I;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach Benennung;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+429;DE;I;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+429;EN;I;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+429;FR;I;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+429;IT;I;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;5;Vo_027d_SW-Suche in AufWK - Suche nach SW-Nr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+430;DE;I;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+430;EN;I;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+430;FR;I;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+430;IT;I;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;5;Vo_043d_Auftragsbestand D gruppiert nach SB;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+431;DE;I;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;5;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+431;EN;I;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;5;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+431;FR;I;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;5;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+431;IT;I;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;5;Vo_060b_Auftragsstatus_TS_sort_Lieferdatum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+432;DE;I;Vo_010c_Offene Angebote weitergeleitet;NULL;5;Vo_010c_Offene Angebote weitergeleitet;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+432;EN;I;Vo_010c_Offene Angebote weitergeleitet;NULL;5;Vo_010c_Offene Angebote weitergeleitet;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+432;FR;I;Vo_010c_Offene Angebote weitergeleitet;NULL;5;Vo_010c_Offene Angebote weitergeleitet;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+432;IT;I;Vo_010c_Offene Angebote weitergeleitet;NULL;5;Vo_010c_Offene Angebote weitergeleitet;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+433;DE;I;Vo_078_Komponentenbeschreibungen;NULL;5;Vo_078_Komponentenbeschreibungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+433;EN;I;Vo_078_Komponentenbeschreibungen;NULL;5;Vo_078_Komponentenbeschreibungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+433;FR;I;Vo_078_Komponentenbeschreibungen;NULL;5;Vo_078_Komponentenbeschreibungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+433;IT;I;Vo_078_Komponentenbeschreibungen;NULL;5;Vo_078_Komponentenbeschreibungen;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+434;DE;I;Vo_079_Dokumente_Omniplot;NULL;5;Vo_079_Dokumente_Omniplot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+434;EN;I;Vo_079_Dokumente_Omniplot;NULL;5;Vo_079_Dokumente_Omniplot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+434;FR;I;Vo_079_Dokumente_Omniplot;NULL;5;Vo_079_Dokumente_Omniplot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+434;IT;I;Vo_079_Dokumente_Omniplot;NULL;5;Vo_079_Dokumente_Omniplot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+435;DE;F;Angebots-Deckblatt;NULL;2;NULL;NULL;ma_kontakt;druck_deckblatt;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;AngDeckblatt;2;NULL;NULL;NULL;NULL;NULL
+436;DE;K;Order-Entry-Sheet;NULL;2;NULL;NULL;ma_auftrag;drucke_order_entry;start;smtext.Filter;smtext.Ansicht;NULL;NULL;smtext.Dokument;AngDeckblatt;2;NULL;NULL;NULL;NULL;NULL
+437;DE;I;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+437;EN;I;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+437;FR;I;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+437;IT;I;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;5;Vo_027c_SW-Verwendung P-Warenkörbe Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+438;DE;I;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;5;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+438;EN;I;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;5;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+438;FR;I;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;5;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+438;IT;I;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;5;Vo_027c_SW-Verwendung P1-Warenkörbe SUMME;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+439;DE;I;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;5;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+439;EN;I;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;5;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+439;FR;I;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;5;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+439;IT;I;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;5;Vo_027c_SW-Verwendung-Team_Cab P-WK Einzeln;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+440;DE;I;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;5;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+440;EN;I;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;5;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+440;FR;I;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;5;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+440;IT;I;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;5;Vo_072_FahrgestellZusatzdaten_Angebot;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+441;DE;I;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;5;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+441;EN;I;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;5;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+441;FR;I;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;5;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+441;IT;I;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;5;Vo_073_FahrgestellZusatzdaten_Auftrag;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+442;DE;D;Vo_090_CMDW;NULL;5;Vo_090_CMDW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+442;EN;D;Vo_090_CMDW;NULL;5;Vo_090_CMDW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+442;FR;D;Vo_090_CMDW;NULL;5;Vo_090_CMDW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+442;IT;D;Vo_090_CMDW;NULL;5;Vo_090_CMDW;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+443;DE;I;Vo_050_Referenzliste TS ein Land;NULL;5;Vo_050_Referenzliste TS ein Land;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+443;EN;I;Vo_050_Referenzliste TS ein Land;NULL;5;Vo_050_Referenzliste TS ein Land;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+443;FR;I;Vo_050_Referenzliste TS ein Land;NULL;5;Vo_050_Referenzliste TS ein Land;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+443;IT;I;Vo_050_Referenzliste TS ein Land;NULL;5;Vo_050_Referenzliste TS ein Land;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+444;DE;K;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+444;EN;K;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+444;FR;K;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+444;IT;K;Dealsheet;1;2;NULL;NULL;ma_dealsheet;start;start;smtext.Filter;smtext.Ansicht;NULL;dealsheet;smtext.Dokument;NULL;2;NULL;NULL;NULL;NULL;NULL
+445;DE;M;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+445;EN;M;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+445;FRA;M;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+445;IT;M;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+446;DE;W;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+446;EN;W;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+446;FRA;W;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;CoreCab;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+446;IT;W;Core-CAB Lieferumfang;9;2;NULL;NULL;ma_druck;DOKUMENTE;START;smtext.Filter;smtext.Ansicht;NULL;Angebot;smtext.Dokument;CoreCab;2;NULL;K;NULL;NULL;NULL
+450;DE;I;Vo_062_Auftragsstatus ALLE;NULL;5;Vo_062_Auftragsstatus ALLE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+450;EN;I;Vo_062_Auftragsstatus ALLE;NULL;5;Vo_062_Auftragsstatus ALLE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+450;FR;I;Vo_062_Auftragsstatus ALLE;NULL;5;Vo_062_Auftragsstatus ALLE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+450;IT;I;Vo_062_Auftragsstatus ALLE;NULL;5;Vo_062_Auftragsstatus ALLE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+451;DE;I;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;5;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+451;EN;I;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;5;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+451;FR;I;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;5;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+451;IT;I;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;5;Vo_066_Aufträge_Gesamt_Zeitraum;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+452;DE;I;Vo_081_Aufträge ohne Bestelleingang;NULL;5;Vo_081_Aufträge ohne Bestelleingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+452;EN;I;Vo_081_Aufträge ohne Bestelleingang;NULL;5;Vo_081_Aufträge ohne Bestelleingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+452;FR;I;Vo_081_Aufträge ohne Bestelleingang;NULL;5;Vo_081_Aufträge ohne Bestelleingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+452;IT;I;Vo_081_Aufträge ohne Bestelleingang;NULL;5;Vo_081_Aufträge ohne Bestelleingang;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+453;DE;I;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+453;EN;I;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+453;FR;I;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+453;IT;I;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;5;Vo_010c_Offene Angebote Zuschlagsfrist DE;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+454;DE;I;Vo_010d_Offene Angebote;NULL;5;Vo_010d_Offene Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+454;EN;I;Vo_010d_Offene Angebote;NULL;5;Vo_010d_Offene Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+454;FR;I;Vo_010d_Offene Angebote;NULL;5;Vo_010d_Offene Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+454;IT;I;Vo_010d_Offene Angebote;NULL;5;Vo_010d_Offene Angebote;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+455;DE;I;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;5;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+456;EN;I;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;5;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+457;FR;I;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;5;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+458;IT;I;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;5;Vo_039_Eng-U_Auftragseingang ohne Lohr;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
