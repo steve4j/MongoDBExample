@@ -52,9 +52,16 @@ namespace MongoDBLib
 
                 CsvHelper.CsvReader reader = new CsvHelper.CsvReader(tr, config);
                 CsvHelper.CsvDataReader dataReader = new CsvHelper.CsvDataReader(reader);
+                int recordIndex = 0;
 
                 while (reader.Read())
                 {
+                    recordIndex++;
+
+                    //if (recordIndex < 67000)
+                      //  continue;
+
+
                     string[] headerRecord = reader.HeaderRecord;
                     Dictionary<string, object> dic = new Dictionary<string, object>();
 
@@ -79,19 +86,28 @@ namespace MongoDBLib
                     dic["_id"] = objId;
                     dic["md5"] = md5Str;
 
+
                     var filter = Builders<BsonDocument>.Filter.Eq("md5", md5Str);
                     var bdoc = mongoCollection.Find(filter).FirstOrDefault();
 
-                    if (bdoc == null)
+                    try
                     {
-                        bdoc = new BsonDocument(dic);
-                        mongoCollection.InsertOne(bdoc);
+                        if (bdoc == null)
+                        {
+                            bdoc = new BsonDocument(dic);
+                            mongoCollection.InsertOne(bdoc);
+                        }
+                        else
+                        {
+                            mongoCollection.DeleteOne(filter);
+                            mongoCollection.InsertOne(new BsonDocument(dic));
+                        }
                     }
-                    else
+                    catch(Exception ex)
                     {
-                        mongoCollection.DeleteOne(filter);
-                        mongoCollection.InsertOne(new BsonDocument(dic));
+                        Console.WriteLine("Error while indexing line: " + ex.Message);
                     }
+
                 }
             }
         }

@@ -1,5 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
+using System.Diagnostics.Metrics;
+using System.Diagnostics;
 
 namespace MongoDBLib
 {
@@ -61,16 +63,19 @@ namespace MongoDBLib
             {
                 SqlCommand command = new SqlCommand(query, connection);
 
+                Stopwatch stopwatch = Stopwatch.StartNew();
                 try
                 {
                     connection.Open();
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
+                        stopwatch.Stop();
                         while (reader.Read())
                         {
                             Console.WriteLine($"ID: {reader["ID"]}, Name: {reader["Name"]}");
                             if (includeFullText) Console.WriteLine($"Text: {reader["Text"]}");
                         }
+                        Console.WriteLine($"Query executed in: {stopwatch.ElapsedMilliseconds} ms");
                     }
                 }
                 catch (Exception ex)
